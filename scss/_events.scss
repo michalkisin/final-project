@@ -1,0 +1,100 @@
+@media screen and (min-width: 768px){
+    .events-items{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .events-item-front {
+        background-image: url(../images/items/kids-event.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        margin: 5px;
+        height: 250px;
+        border: 1px solid #555;
+        border-radius: 5px;
+        text-align: center;
+        padding: 15px;
+        /*&:hover{
+            opacity: 0.6;
+            color: #fff;
+        }*/
+        .item-title {
+            position: relative;
+            top: 230px;
+            font-size: 25px;
+            color: #555;
+            max-width: 200px;
+        }
+    }
+    .events-item-back {
+        display: none;
+        background: #fff;
+        /*background-image: url(../images/items/valentine32.png);
+        background-repeat: no-repeat;
+        background-size: cover;*/
+        width: 200px;
+        margin: 5px;
+        height: 250px;
+        border: 1px solid #555;
+        border-radius: 5px;
+        text-align: center;
+        padding: 15px;
+        /*&:hover{
+            opacity: 0.6;
+            color: #fff;
+    }*/
+        .item-title {
+            position: relative;
+            top: 0;
+            font-size: 20px;
+            color: #555;
+            max-width: 200px;
+            margin-bottom: 15px;
+        }
+    }
+    .get-tickets{
+        padding: 15px;
+        background: linear-gradient(#9ec14c, #41b14f);
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-family: inherit;
+        font-size: 17px;
+        margin-top: 5px;
+    }
+
+    .events-item-first {
+        background: #fff;
+        width: 200px;
+        margin: 5px;
+        height: 250px;
+        border: 1px solid #555;
+        border-radius: 5px;
+        text-align: center;
+        padding: 15px;
+        position: relative;
+        float: initial;
+        transform-origin: 0 100%;
+        transform: rotate(-11deg);
+        transition: transform .2s ease-out;
+        padding-bottom: 15px;
+        &:hover{
+            transform: rotate(0deg);
+        }
+        .item-title-first{
+            p:nth-of-type(1){
+                color: #e73e32;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            p:nth-of-type(2){
+                color: #555;
+                font-size: 25px;
+                font-weight: bold;
+            }
+        }
+    }
+}

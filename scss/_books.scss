@@ -1,0 +1,211 @@
+@media screen and (min-width: 768px){
+#books{
+    padding: 0px;
+    background: #e73e32;
+    h2{
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    h3{
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+        margin-top: 0;
+    }
+}
+.container{
+    margin: 0 auto;
+}
+ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    li{
+        background: #811d15;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 15px;
+        cursor: pointer;
+        font-size: 25px;
+        border-radius: 5px 5px 0 0 ;
+        width: 47%;
+        text-align: center;
+        &:hover{
+            background: #fff;
+            color: #811d15;
+        }
+    }
+}
+ul.tabs li.current {
+    background: #bc3428;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 5px 5px 0 0 ;
+    width: 47%;
+    text-align: center;
+}
+.tab-content {
+    display: none;
+    background: #bc3428;
+    padding: 15px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.tab-content.current {
+    display: inherit;
+    padding: 0;
+    min-height: 330px;
+    background: #fff;
+    img{
+        width: 180px;
+        float: right;
+        margin: 0 70px;
+    }
+    p {
+        padding: 20px 115px;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+
+}
+.tab-title{
+    background: #bc3428;
+    padding: 50px 70px 100px 70px;
+    p{
+        background: #bc3428;
+        margin: 0;
+    }
+    h4{
+        font-size: 17px;
+        text-align: left;
+        margin: 0;
+    }
+    h1{
+        margin: 0;
+    }
+    img{
+        width: 150px;
+        margin: 0;
+    }
+    .logo-tab{
+        img{
+            width: 75px;
+            border: 5px solid #fff;
+            border-radius: 20px;
+            transform-origin: 0 100%;
+            transform: rotate(-11deg);
+            transition: transform .2s ease-out;
+            float: left;
+            margin: 0 15px;
+            &:hover{
+                transform: rotate(0deg);
+    
+            }
+        }
+    }
+}
+.book-list{
+    background: #f6f7f6;
+    color: #000;
+    padding: 15px 0;
+    title {
+        display: block;
+        color: #2da2c5;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .a-book{
+        padding: 30px;
+        background: #f6f7f6;
+        margin: 0 50px;
+    p{
+        padding: 0;
+        img{
+            position: relative;
+            top: -150px;
+        }
+    }
+    .learn-more{
+        color: #2da2c5;
+        margin-bottom: 25px;
+        border: 1px solid #2da2c5;
+        width: 105px;
+        padding: 5px;
+    
+        }
+    }
+}
+.sale{
+    background: #f6f7f6;
+    width: 385px;
+    padding: 0;
+    margin-top: 50px;
+    .books-details{
+        display: flex;
+        .book-type{
+            margin: 0 5px;
+            h4{
+                display: block;
+                text-align: center;
+                line-height: 1;
+                margin: 0;
+                color: #999;
+                font-size: 17px;
+                text-transform: uppercase;
+                span{
+                    display: inline-block;
+                    position: relative;
+                }
+            }
+        }
+        .price{
+            text-align: center;
+            margin: 15px;
+            font-size: 25px;
+            color: #e82429;
+        }
+        button{
+            padding: 15px;
+            background: linear-gradient(#9ec14c, #41b14f);
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-family: inherit;
+            font-size: 17px;
+            margin-top: 5px;
+        }
+    }
+
+}
+
+
+}
+/*
+.book-cta__title {
+    display: block;
+    text-align: center;
+    background-image: linear-gradient(#ddd,#ddd);
+    background-size: 100% .06em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -ms-font-feature-settings: "smcp" 1,"c2sc" 1;
+    -o-font-feature-settings: "smcp" 1,"c2sc" 1;
+    font-feature-settings: "smcp" 1,"c2sc" 1;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    background-position: center 72%;
+    line-height: 1;
+    margin: 0;
+    color: #999;
+    font-size: 1em;
+    margin: 1em auto 1em;
+    font-family: Georgia,serif;
+}*/
+
+
+

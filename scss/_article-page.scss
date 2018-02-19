@@ -1,0 +1,122 @@
+section.articles-page{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.article-page {
+    padding: 75px;
+    color: #fff;
+    .article-title{
+        margin-top: 40px;
+    }
+    a {
+        color: #333;
+        text-decoration: none;
+        font-size: 25px;
+        &:hover{
+            color: #e82429;
+        }
+    }
+    .article-title{
+        p{
+            color: #555;
+            font-size: 17px;
+            font-weight: 100;
+            font-family: sans-serif;
+            letter-spacing: 0.5px;
+        }
+        .read-more{
+            color: #2da2c5;
+            font-size: 17px;
+            margin: 25px 0;
+        }
+    }
+    .comment {
+        font-size: 17px;
+        font-family: sans-serif;
+        font-weight: 600;
+        .comment-white{
+            font-size: 17px;
+        }
+        .comment-red{
+            font-size: 17px;
+            display: block !important;
+        }
+    }
+}
+
+.article-page:nth-child(odd){
+    background: #f6f4f7;
+  }
+  .article-page:nth-child(even){
+    background: #fcfafd;
+  }
+
+
+span.comment img {
+    top: 15px;
+    position: relative;
+}
+.author-img img {
+    width: 60px;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    transform-origin: 0 100%;
+    transform: rotate(-11deg);
+    transition: transform .2s ease-out;
+}
+.author-img img:hover {
+    transform: rotate(0deg);
+}
+.autor {
+    font-size: 18px;
+    font-weight: bold;
+    width: 420px;
+}
+.autor span:nth-child(1) {
+    padding: 0px 10px;
+    font-weight: 100;
+}
+.autor span:nth-child(2) {
+    color: #390c09;
+    font-weight: 100;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.autor span:nth-child(2)::before {
+    content: "";
+    width: 70px;
+    display: inline-block;
+    background-color: #390c09;
+    height: 1px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+}
+.author-detales {
+    float: left;
+    color: #2da2c5;;
+}
+.main-content-header {
+    width: 275px;
+    position: fixed;
+    text-align: center;
+    margin-left: 50%;
+    z-index: 100;
+    transform: translate(-50%);
+    margin-top: 50px;
+    a {
+        text-decoration: none;
+        text-align: center;
+        background: #fff;
+        font-size: 20px;
+        padding: 10px;
+        line-height: 1em;
+        color: #282634;
+    }
+}
+.category {
+    position: absolute;
+    margin-top: 50px;
+    a{
+        font-size: 20px;
+    }
+}

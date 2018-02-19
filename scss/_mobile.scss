@@ -1,0 +1,207 @@
+
+@media screen and (max-width: 767px){
+    .logo{
+        display: none !important;
+    }
+    .logo-mobile{
+        display: block !important;
+        margin-top: 25px;
+    }
+    section.articles {
+        display: block;
+    }
+    .latest-posts {
+        display: block !important;
+    }
+    .topics-button {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        right: 60px;
+        top: 60px;
+        font-size: 20px;
+        width: 130px;
+    }
+    .mobile-button {
+        border: 3px solid #fff;
+        border-radius: 5px;
+        color: #fff;
+        position: absolute;
+        text-align: center;
+        line-height: 2;
+        font-family: sans-serif;
+        background-image: url(images/search.png);
+        display: block;
+        width: 200px;
+        font-size: 40px;
+        right: 0px;
+    }
+    ul.mobile-menu-list {
+        display: inline-block;
+        color: #fff;
+        position: relative;
+        li {
+            font-size: 25px;
+            border: 1px solid #fff;
+            display: inherit;
+        }
+    }
+    .menu-item-title {
+        font-size: 40px;
+        margin: 0;
+        padding: 15px;
+    }
+    .handicrafts-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .handicrafts-item{
+        background-image: url(../images/items/valentine32.png);
+    }
+    ul.main-menu {
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    ul.Instructions img {
+        width: 100%;
+        margin: 25px 0;
+    }
+    .comments .your-comment input[type="text"] {
+        width: 100%;
+        height: 50px;
+        margin: 5px 0;
+        padding: 0 10px;
+    }
+    .comments .your-comment input[type="text-area"] {
+        width: 100%;
+        height: 150px;
+        margin: 5px 0;
+        padding: 0 10px;
+    }
+    .item .item-text img {
+        width: 100%;
+    }
+}
+/*    .logo{
+        display: none !important;
+    }
+    .logo-mobile{
+        display: block !important;
+        margin-top: 25px;
+    }
+    section.articles {
+        display: block;
+    }
+    .latest-posts {
+        display: block !important;
+    }
+    .topics-button {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        right: 60px;
+        top: 60px;
+        font-size: 20px;
+        width: 130px;
+    }
+    .mobile-button {
+        border: 3px solid #fff;
+        border-radius: 5px;
+        color: #fff;
+        position: absolute;
+        text-align: center;
+        line-height: 2;
+        font-family: sans-serif;
+        background-image: url(images/search.png);
+        display: block;
+        width: 200px;
+        font-size: 40px;
+        right: 0px;
+    }
+    ul.mobile-menu-list {
+        display: inline-block;
+        color: #fff;
+        position: relative;
+
+
+        li {
+            font-size: 25px;
+            border: 1px solid #fff;
+            display: inherit;
+        }
+    }
+    .menu-item-title {
+        font-size: 40px;
+        margin: 0;
+        padding: 15px;
+    }
+    ul.main-menu {
+        display: none !important;
+    }
+    #handicrafts img, #art img {
+        display: none;
+    }
+    .handicrafts-items .container, .art-items .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .container .art-item, .art-items .container .handicrafts-item, .art-items .container .art-item {
+        background-image: url(../images/items/valentine32.png);
+        color: #e73e32;
+        text-align: center;
+        border-radius: 10px;
+        margin: 5px;
+        cursor: pointer;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        border: 1px solid #555;
+    }
+    #recipes img {
+        width: 242px;
+        float: left;
+        display: none;
+    }
+    .recipes-items .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .recipes-items .container .recipes-item {
+        background-image: url(../images/items/valentine32.png);
+        color: #e73e32;
+        text-align: center;
+        border-radius: 10px;
+        margin: 5px;
+        cursor: pointer;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        border: 1px solid #555;
+    }
+    .sidebar{
+        display: none;
+    }
+    .gallery-images {
+        display: block;
+    }*/
+
+
+
+
+
+
+

@@ -1,0 +1,427 @@
+@media screen and (min-width: 768px){
+    .handicrafts-items, .recipes-items, .art-items{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .handicrafts-item {
+        background-image: url(../images/items/valentine32.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        margin: 5px;
+        height: 250px;
+        border: 1px solid #555;
+        border-radius: 5px;
+        text-align: center;
+        padding: 15px;
+        &:hover{
+            opacity: 0.6;
+            color: #fff;
+    }
+        .item-title {
+            position: relative;
+            top: 220px;
+            font-size: 15px;
+            color: #555;
+            max-width: 200px;
+        }
+    }
+    .recipes-item{
+        &:nth-child(1){
+            background-image: url(../images/items/c9023d1aa05d0c0b56d428a3536cb9e2.png);
+        }
+        &:nth-child(2){
+            background-image: url(../images/items/ba4c92de30c357d7fe3e0a252e290e55.png);
+        }
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        margin: 5px;
+        height: 250px;
+        border: 1px solid #555;
+        border-radius: 5px;
+        text-align: center;
+        padding: 15px;
+        &:hover{
+            opacity: 0.6;
+            color: #fff;
+    }
+        .item-title {
+            position: relative;
+            top: 220px;
+            font-size: 17px;
+            color: #fff;
+            max-width: 200px;
+        }
+    }
+    .art-item {
+        background-image: url(../images/items/teacup_mermaid_bubblebath_art_fea02ece-230b-4222-b846-93e5a173f373.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        margin: 5px;
+        height: 250px;
+        border: 1px solid #555;
+        border-radius: 5px;
+        text-align: center;
+        padding: 15px;
+        &:hover{
+            opacity: 0.6;
+            color: #fff;
+    }
+        .item-title {
+            position: relative;
+            top: 235px;
+            font-size: 15px;
+            color: #555;
+            max-width: 200px;
+        }
+    }
+    .handicrafts-item-first, .recipes-item-first, .art-item-first {
+        background: #fff;
+        width: 200px;
+        margin: 5px;
+        height: 250px;
+        border: 1px solid #555;
+        border-radius: 5px;
+        text-align: center;
+        padding: 15px;
+        position: relative;
+        float: initial;
+        transform-origin: 0 100%;
+        transform: rotate(-11deg);
+        transition: transform .2s ease-out;
+        padding-bottom: 15px;
+        &:hover{
+            transform: rotate(0deg);
+        }
+        .item-title-first{
+            p:nth-of-type(1){
+                color: #e73e32;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            p:nth-of-type(2){
+                color: #555;
+                font-size: 25px;
+                font-weight: bold;
+            }
+        }
+    }
+#handicrafts, #art{
+    padding: 50px;
+    background: #e73e32;
+    h2{
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    h3{
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+        margin-top: 0;
+    }
+    img{
+        width: 242px;
+        float: right;
+        
+    }
+}
+#recipes{
+    padding: 50px;
+    background: #fff;
+    h2{
+        text-align: center;
+        color: #e73e32;
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    h3{
+        text-align: center;
+        color: #e73e32;
+        font-size: 25px;
+        margin-top: 0;
+    }
+    img{
+        width: 242px;
+        float: left;
+        
+    }
+}
+    section.item-page {
+        padding: 75px;
+        display: flex;
+        .author-img img {
+            width: 200px;
+            border: 5px solid #fff;
+            border-radius: 5px;
+            transform-origin: 0 100%;
+            transform: rotate(-11deg);
+            transition: transform .2s ease-out;
+            &:hover{
+                transform: rotate(0deg);
+
+            }
+        }
+            .item-date{
+                font-size: 1em;
+            }
+            .comment{
+                font-size: 1em;
+                font-family: inherit;
+                color: #e73c31;
+                font-weight: 100;
+                padding-left: 15px;
+            }
+            a{
+                font-size: 1em;
+            }
+            p{
+                line-height: 1.5;
+                max-width: 600px;
+            }
+            h2.item-title {
+                color: #e73c31;
+            }
+        }
+.item-image{
+            img{
+                width: 100%;
+                float: none;
+                border-radius: 5px 5px 0 0
+            }
+}
+.share{
+    margin-top: 50px;
+    title{
+        display: block;
+        margin-bottom: 15px;
+    }
+    a{
+        img{
+            width: 50px;
+        }
+    }
+}
+.comments{
+    margin-top: 30px;
+    .your-comment{
+        title{
+            display: block;
+            font-size: 20px;
+            color: #e73c31;
+        }
+        input[type="text-area"]{
+            width: 490px;
+            height: 150px;
+            margin: 5px 0;
+            padding: 0 10px;
+        }
+        input[type="text"]{
+            width: 490px;
+            height: 50px;
+            margin: 5px 0;
+            padding: 0 10px;
+        }
+        button {
+            padding: 15px;
+            background: linear-gradient(#9ec14c,#41b14f);
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-family: inherit;
+            font-size: 17px;
+            margin-top: 5px;
+            &:hover{
+                background: linear-gradient(#41b14f, #9DC14B);
+            }
+        }
+
+    }
+}
+#all-comments{
+    margin-top: 20px;
+        title{
+            display: block;
+            font-size: 20px;
+            color: #e73c31;
+    }
+    .all-comments-row {
+        margin: 15px 0;
+        .all-comments-img{
+            img{
+                border: 5px solid #fff;
+                border-radius: 5px;
+                transform-origin: 0 100%;
+                transform: rotate(-11deg);
+                transition: transform .2s ease-out;
+                &:hover{
+                    transform: rotate(0deg);
+                }
+            }
+        }
+        .all-comments-name {
+            margin-left: 10px;
+        }
+        .all-comments-message {
+            margin: 15px 0;
+        }
+    }
+}
+ul.instructions {
+    padding-left: 30px;
+    li{
+        list-style: decimal-leading-zero;
+    }
+    img{
+        width: 500px;
+        margin: 25px 0;
+    }
+    img:last-of-type{
+        width: 250px;
+    }
+}
+ul.ingredients{
+    padding-left: 0;
+    line-height: 1.5;
+    margin-bottom: 0;
+    li{
+        list-style: none;
+    }
+    img{
+        width: 500px;
+        margin-top: 25px;
+    }
+}
+.item{
+    background: #f6f7f6;
+    padding: 40px 50px;
+    border-radius: 5px;
+    .item-text{
+    img{
+        width: 500px;
+    }
+}
+}
+.sidebar{
+    .categories{
+        title{
+            display: block;
+            color: #000;
+            margin: 0 15px;
+        }
+        ul{
+            padding-left: 15px;
+            li{
+                padding: 3px 0;
+                a{
+                    color: #a9a9a9;
+                    &:hover{
+                        color: #757575;
+                    }
+                }
+            }
+        }
+    }
+    .item-search {
+        margin: 35px 15px;
+        input[type="search"] {
+            height: 35px;
+            padding: 0 0 0 30px;
+            background-image: url(../images/search-gray.png);
+            background-repeat: no-repeat;
+            background-position-y: 2px;
+        }
+    }
+    .sidebar-ad-img{
+        margin: 15px;
+        img{
+            width: 220px;
+        }
+    } 
+}
+.item-gallery, .item-video{
+    width: 500px;
+    margin-top: 25px;
+    img{
+        width: 100%;
+        max-height: 345px;
+        margin-bottom: 25px;
+    }
+    .item-gallery-title, .item-video-title {
+        font-size: 1.5em;
+        color: #e73c31;
+        text-align: left;
+        margin: 15px 0;
+    }
+    .gallery-buttons{
+            margin-top: -200px;
+            position: absolute;
+            .button-display-left {
+                left: 0;
+                position: absolute;
+                height: 40px;
+                width: 40px;
+            }
+            .button-display-right {
+                left: 460px;
+                position: absolute;
+                height: 40px;
+                width: 40px;
+            }
+    }
+}
+.gallery-images {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    .item-gallery{
+        width: 250px;
+        height: 250px;
+        margin-right: 15px;
+        margin-top: 0;
+    }
+}
+.video{
+    title {
+        display: block;
+        color: #e73c31;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+}
+.next-pre{
+    width: 500px;
+    text-align: center;
+    margin: 20px 0;
+    span{
+        padding: 15px;
+        background: linear-gradient(#9ec14c, #41b14f);
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-family: inherit;
+        font-size: 17px;
+        margin-top: 5px;
+        &:hover{
+            background: linear-gradient(#41b14f, #9ec14c);
+
+        }
+    }
+}
+
+}
+
+
+
+
+
+

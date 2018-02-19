@@ -1,0 +1,112 @@
+section.articles {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+.article {
+    padding: 150px 75px;
+    color: #fff;
+    .article-title{
+        margin-top: 40px;
+        &:hover{
+            color: #e82429;
+        }
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 35px;
+    }
+}
+
+.article:nth-of-type(n+1){
+    background: #bc3428;
+  }
+  .article:nth-of-type(n+2){
+    background: #c7372a;
+  }
+  .article:nth-of-type(n+3){
+    background: #b13125;
+  }
+  .article:nth-of-type(n+4){
+    background: #bc3428;
+    /*display: none;*/
+}
+.comment {
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    .comment-white{
+        font-size: 17px;
+    }
+    .comment-red{
+        font-size: 17px;
+    }
+}
+span.comment img {
+    top: 15px;
+    position: relative;
+}
+.author-img img {
+    width: 60px;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    transform-origin: 0 100%;
+    transform: rotate(-11deg);
+    transition: transform .2s ease-out;
+}
+.author-img img:hover {
+    transform: rotate(0deg);
+}
+.autor {
+    font-size: 18px;
+    font-weight: bold;
+    width: 420px;
+}
+.autor span:nth-child(1) {
+    padding: 0px 10px;
+    font-weight: 100;
+}
+.autor span:nth-child(2) {
+    color: #390c09;
+    font-weight: 100;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.autor span:nth-child(2)::before {
+    content: "";
+    width: 70px;
+    display: inline-block;
+    background-color: #390c09;
+    height: 1px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+}
+.author-detales {
+    float: right;
+}
+.main-content-header {
+    width: 275px;
+    position: fixed;
+    text-align: center;
+    margin-left: 50%;
+    z-index: 100;
+    transform: translate(-50%);
+    margin-top: 50px;
+    a {
+        text-decoration: none;
+        text-align: center;
+        background: #fff;
+        font-size: 20px;
+        padding: 10px;
+        line-height: 1em;
+        color: #282634;
+    }
+}
+.category {
+    position: absolute;
+    margin-top: 50px;
+    a{
+        font-size: 20px;
+    }
+}
