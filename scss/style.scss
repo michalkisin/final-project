@@ -374,30 +374,26 @@ footer {
         img {
             width: 50px;
             height: 50px;
-            /*border: 2px solid #fff;
-            border-radius: 5px;*/
         }
         img:nth-of-type(2){
             width: 75px;
             height: 75px;
-            /*border: 2px solid #fff;
-            border-radius: 5px;*/
             position: absolute;
             top: 0;
             right: 15px;
         }
     }
 }
-button.load-more{
+button.load-more {
     padding: 15px;
-    background: linear-gradient(#9ec14c, #41b14f);
-    border: none;
+    background: none;
+    border: 1px solid #2da2c5;
     border-radius: 5px;
-    color: #fff;
+    color: #2da2c5;
     font-family: inherit;
     font-size: 17px;
-    margin-top: 5px;
-    width: 200px;
+    margin: 25px auto;
+    width: 150px;
 }
 }
 
