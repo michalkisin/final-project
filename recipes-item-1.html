@@ -11,87 +11,98 @@
         <script
         src="https://code.jquery.com/jquery-3.3.0.min.js"
         integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4="
-        crossorigin="anonymous"></script>    
+        crossorigin="anonymous"></script>  
+    <script>
+            $(document).ready(function(){
+            $('.comment').click(function(){
+                $('html, body').animate({scrollTop : 2650},800);
+                return false;
+            });
+            
+        });
+        </script>   
     </head>
     <body>
         <header>
-            <!--<div class="top-header">This is a release candidate of the next SmashingMag. <a href ="#">Report a bug on GitHub</a> or <a href="#">via email.</a> Beware of cats.</div>-->
-            <div class="main-header">
-                <div class="logo"><a href="file:///C:/netcraft/final-project/smashing-magazine-app/index.html"><img src="images/logo-kids.png" alt="logo"></a></div>
-                <div class="logo-mobile"><a href="file:///C:/netcraft/final-project/smashing-magazine-app/index.html"><img src="images/logo.svg" alt="logo"></a></div>
-                <ul class="main-menu">
-                    <li class="main-menu-item">
-                        <a href="file:///C:/netcraft/final-project/smashing-magazine-app/articles.html"><span class="menu-item-img"><img src="images/articles.svg" alt="articles"></span>
-                        <h2 class ="menu-item-title">Articles</h2>
-                        <p>Find what interests you</p></a>
-                    </li>
-                    <li class="main-menu-item">
-                            <a href="file:///C:/netcraft/final-project/smashing-magazine-app/books.html"><span class="menu-item-img"><img src="images/books.svg" alt="books"></span>
-                            <h2 class ="menu-item-title">Books</h2>
-                            <p>Physical & digital books</p></a>
-                    </li>
-                    <li class="main-menu-item">
-                            <a href="file:///C:/netcraft/final-project/smashing-magazine-app/events.html"><span class="menu-item-img"><img src="images/events.svg" alt="events"></span>
-                            <h2 class ="menu-item-title">Events</h2>
-                            <p>Order tickets for the show</p></a>
-                    </li>
-                    <li class="main-menu-item">
-                            <span class="menu-item-img"><img src="images/jobs.svg" alt="videos"></span>
-                            <h2 class ="menu-item-title">Music</h2>
-                            <p>Your own listening room</p>
-                    </li>
-                    <li class="main-menu-item">
-                            <a href="file:///C:/netcraft/final-project/smashing-magazine-app/playground.html"><span class="menu-item-img"><img src="images/membership.svg" alt="galleries"></span>
-                            <h2 class ="menu-item-title">playground</h2>
-                            <p>Create your own craft</p></a>
-                    </li>
-                </ul>
-                <div class="mobile-menu"><a href="#"><div class="mobile-button"><img src="images/search.png">Menu</div></a></div>
-                <ul class="mobile-menu-list">
-                    <li class="mobile-menu-item">
-                        <h2 class ="menu-item-title">Articles</h2>
-                    </li>
-                    <li class="mobile-menu-item">
-                            <h2 class ="menu-item-title">Books</h2>
-                    </li>
-                    <li class="mobile-menu-item">
-                            <h2 class ="menu-item-title">Events</h2>
-                    </li>
-                    <li class="mobile-menu-item">
-                            <h2 class ="menu-item-title">Music</h2>
-                    </li>
-                    <li class="mobile-menu-item">
-                            <h2 class ="menu-item-title">playground</h2>
-                    </li>
+                <div class="main-header" style=" text-align: center;">
+                    <ul class="main-menu" style="width: 100%;">
+                        <li>
+                            <div class="logo"><a href="index.html"><img src="images/logo-kids.png" alt="logo"></a></div>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="articles.html"><span class="menu-item-img"><img src="images/articles.svg" alt="articles"></span>
+                            <h2 class ="menu-item-title">Articles</h2>
+                            <p>Find what interests you</p></a>
+                        </li>
+                        <li class="main-menu-item">
+                                <a href="books.html"><span class="menu-item-img"><img src="images/books.svg" alt="books"></span>
+                                <h2 class ="menu-item-title">Books</h2>
+                                <p>Physical & digital books</p></a>
+                        </li>
+                        <li class="main-menu-item">
+                                <a href="events.html"><span class="menu-item-img"><img src="images/events.svg" alt="events"></span>
+                                <h2 class ="menu-item-title">Events</h2>
+                                <p>Order tickets for the show</p></a>
+                        </li>
+                        <li class="main-menu-item">
+                                <a href="music.html"><span class="menu-item-img"><img src="images/jobs.svg" alt="videos"></span>
+                                <h2 class ="menu-item-title">Music</h2>
+                                <p>Your own listening room</p></a>
+                        </li>
+                        <li class="main-menu-item">
+                                <a href="playground.html"><span class="menu-item-img"><img src="images/membership.svg" alt="galleries"></span>
+                                <h2 class ="menu-item-title">playground</h2>
+                                <p>Create your own craft</p></a>
+                        </li>
+                        <li class="main-menu-topics">
+                            <div class="topics"><a href="#"><div class="topics-button"><img src="images/search.png">Topics</div></a></div>
+                        </li>
                     </ul>
-                <div class="topics"><a href="#"><div class="topics-button"><img src="images/search.png">Topics</div></a></div>
-                
-            </div>    
-            <div class="topics-search-header">
-                    <input type="search" id="topic-search" placeholder="Search Smashing..." src="images/searc.png">
-                    <div class="search-results-header">
-                        <title>Browse All Topics</title>
-                        <ul class="topics-list">
-                                <li><a href="file:///C:/netcraft/final-project/smashing-magazine-app/playground.html">Handicrafts</a></li>
-                                <li><a href="file:///C:/netcraft/final-project/smashing-magazine-app/playground.html #recipes">Recipes</a></li>
-                                <li><a href="#">Music</a></li>
+                    <div class="logo-mobile"><a href="index.html"><img src="images/logo.svg" alt="logo"></a></div>
+                    <div class="mobile-menu"><a href="#"><div class="mobile-button"><img src="images/search.png">Menu</div></a></div>
+                    <ul class="mobile-menu-list">
+                        <li class="mobile-menu-item"><a href="articles.html">
+                            <span class ="menu-item-title">Articles</span></a>
+                        </li>
+                        <li class="mobile-menu-item"><a href="books.html">
+                            <span class ="menu-item-title">Books</span></a>
+                        </li>
+                        <li class="mobile-menu-item"><a href="events.html">
+                            <span class ="menu-item-title">Events</span></a>
+                        </li>
+                        <li class="mobile-menu-item"><a href="music.html">
+                            <span class ="menu-item-title">Music</span></a>
+                        </li>
+                        <li class="mobile-menu-item"><a href="playground.html">
+                            <span class ="menu-item-title">playground</span></a>
+                        </li>
+                        </ul>              
+                </div>    
+                <div class="topics-search-header">
+                        <input type="search" id="topic-search" placeholder="Search Smashing..." src="images/searc.png">
+                        <div class="search-results-header">
+                            <title>Browse All Topics</title>
+                            <ul class="topics-list">
+                                <li><a href="playground.html">Handicrafts</a></li>
+                                <li><a href="playground.html #recipes">Recipes</a></li>
+                                <li><a href="music.html">Music</a></li>
                                 <li><a href="#">YouTube clips</a></li>
-                                <li><a href="file:///C:/netcraft/final-project/smashing-magazine-app/books.html">Books</a></li>
+                                <li><a href="books.html">Books</a></li>
                                 <li><a href="#">science</a></li>
                                 <li><a href="#">space</a></li>
-                                <li><a href="file:///C:/netcraft/final-project/smashing-magazine-app/playground.html #art">Art</a></li>
+                                <li><a href="playground.html #art">Art</a></li>
                                 <li><a href="#">Drawing</a></li>
                                 <li><a href="#">Sculpture</a></li>
                                 <li><a href="#">writing</a></li>
                                 <li><a href="#">Design</a></li>
                                 <li><a href="#">sport</a></li>
                                 <li><a href="#">Gifts</a></li>
-                                <li><a href="file:///C:/netcraft/final-project/smashing-magazine-app/events.html">Events</a></li>
+                                <li><a href="events.html">Events</a></li>
                                 <li><a href="#">Shows</a></li>
                             </ul>
-                    </div>
-            </div>        
-        </header>
+                        </div>
+                </div>
+            </header>
 
         <div id="main"> 
             <div class="main-content">
@@ -103,7 +114,7 @@
                         </div>
                         <br>
                         <span class="item-date">february 18, 2018</span>
-                        <a href="#all-comments"><span class="comment">3 comments</span></a>
+                        <span class="comment">3 comments</span>
                         <h2 class="item-title">Triple Berry Kiwi Smoothie</h2>
                         <p>A Triple berry kiwi smoothie that's packed with antioxidants and vitamin C. Perfect for the winter months!</p>
                         <h2 class="item-title">Ingredients</h2>
@@ -120,9 +131,9 @@
                                 <img src="images/items/c9023d1aa05d0c0b56d428a3536cb9e2.jpg">
                             </ul>
                             <div class="next-pre">
-                                <a href="file:///C:/netcraft/final-project/smashing-magazine-app/playground.html #recipes"><span class="pre">Previous</span>
-                                <a href="file:///C:/netcraft/final-project/smashing-magazine-app/playground.html #recipes"><span class="all-items">All Items</span>
-                                <a href="file:///C:/netcraft/final-project/smashing-magazine-app/recipes-item-2.html"><span class="next">Next</span>
+                                <a href="playground.html #recipes"><span class="pre">Previous Item</span>
+                                <a href="playground.html #recipes"><span class="all-items">All Items</span>
+                                <a href="recipes-item-2.html"><span class="next">Next Item</span>
                             </div>
                         </div>   
                         <div class="share"><title>Share it with your friends</title>
@@ -144,9 +155,10 @@
                         <div class="comments">
                             <div class="your-comment">
                                 <title>Leave a comment</title>
-                                <div class="comment-name"><input type="text" placeholder="Your name"></div>                                
-                                <div class="comment-message"><input type="text-area" placeholder="Your message"></div>
-                                <button>Post your comment</button>
+                                <div class="comment-name"><input id="cmntName" type="text" placeholder="Your name" required="required"></div>                                
+                                <div class="comment-message"><textarea id="cmntText" rows="4" cols="50" placeholder="Your message"></textarea></div>
+                                <button onclick="appendCmnt()">Post your comment</button>
+                                <div id="validVal" class="alertvalid">See all comments</div>
                             </div>
                         </div>
                         <div id="all-comments">
@@ -172,9 +184,9 @@
                         <div class="categories">
                             <title>CATEGORIES</title>
                             <ul class="category-list">
-                                <li><a href="file:///C:/netcraft/final-project/smashing-magazine-app/playground.html">Handicrafts</a></li>
-                                <li><a href="file:///C:/netcraft/final-project/smashing-magazine-app/playground.html #recipes">Recipes</a></li>  
-                                <li><a href="#">Art</a></li>                                
+                                <li><a href="playground.html">Handicrafts</a></li>
+                                <li><a href="playground.html #recipes">Recipes</a></li>  
+                                <li><a href="playground.html #art">Art</a></li>                                
                                 <li><a href="#">Design</a></li>
                                 <li><a href="#">Drawing</a></li>
                                 <li><a href="#">Sculpture</a></li>

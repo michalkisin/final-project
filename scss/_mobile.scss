@@ -1,20 +1,30 @@
 
-@media screen and (max-width: 767px){
+@media only screen and (min-width : 768px) and (max-width : 1024px){
     .logo{
-        display: none !important;
+        display: none ;
     }
-    .logo-mobile{
+    .logo-mobile {
         display: block !important;
-        margin-top: 25px;
+        margin: 25px 55px;
+        float: left;
     }
     section.articles {
         display: block;
     }
     .latest-posts {
-        display: block !important;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
     }
     .topics-button {
         display: none;
+    }
+    ul.main-menu {
+        display: none;
+    }
+    .menu-item-title {
+        font-size: 40px;
+        margin: 0;
+        padding: 25px;
     }
     .mobile-menu {
         display: block;
@@ -42,29 +52,134 @@
         display: inline-block;
         color: #fff;
         position: relative;
-        li {
+        margin-right: 215px;
+        margin-top: 60px;
+        a {
             font-size: 25px;
             border: 1px solid #fff;
             display: inherit;
+            color: #fff;
+            padding: 30px;
         }
     }
-    .menu-item-title {
-        font-size: 40px;
-        margin: 0;
-        padding: 15px;
+    input#topic-search {
+        width: 875px;
+        height: 60px;
+        border-radius: 5px;
+        margin-left: 4%;
+        padding: 25px;
+        font-size: 20px;
+        margin-top: 30px;
     }
-    .handicrafts-items{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: nowrap;
+    //PLAYGROUND
+    #handicrafts, #recipes, #art{
+        img{
+            display: none;   
+        }
+        .handicrafts-items, .recipes-items, .art-items  {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .handicrafts-item-first, .recipes-item-first, .art-item-first {
+            width: 100%;
+            padding: 0;
+            transform: rotate(0deg);
+            border: none;
+            height: 150px;
+        }
+        .handicrafts-item, .recipes-item, .art-item {
+            background-position-y: 0;
+            width: 100%;
+            padding: 15px 0;
+            height: 500px;
+
+        }
+        .handicrafts-item .item-title, .recipes-item .item-title {
+            position: relative;
+            top: 400px;
+            font-size: 40px;
+            color: #fff;
+            max-width: 100%;
+        }
+        .art-item .item-title {
+            position: relative;
+            top: 400px;
+            font-size: 40px;
+            color: #555;
+            max-width: 100%;
+        }
+
     }
-    .handicrafts-item{
-        background-image: url(../images/items/valentine32.png);
+    //EVENTS
+    #events{
+        img{
+            display: none;   
+        }
+        .events-items {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: nowrap;
+            position: relative;
+            .events-item-first {
+                width: 100%;
+                padding: 15px 0;
+                transform: rotate(0deg);
+                height: 150px;
+                border: none;
+            }
+            .events-item-front {
+                width: 100%;
+                padding: 15px 0;
+                height: 500px;
+                .event-date {
+                    position: relative;
+                    top: 400px;
+                    font-size: 50px;
+                    color: #555;
+                    max-width: 100%;
+                    transition: all 0.5s ease-in-out;
+                }
+                .event-details{
+                    position: relative;
+                    top: 0;
+                    font-size: 50px;
+                    color: #555;
+                    max-width: 100%;
+                }
+                .ticket{
+                    transition: all.5s ease-in-out; 
+                    .get-tickets{
+                        padding: 30px;
+                        border: none;
+                        border-radius: 5px;
+                        color: #fff;
+                        font-family: inherit;
+                        font-size: 35px;
+                        margin-top: 15px;
+                    }
+        
+                }
+            }
+        }
     }
-    ul.main-menu {
-        display: none;
+    //BOOKS
+    ul.tabs li {
+        background: #bc3428;
+        color: #fff;
+        font-size: 25px;
+        border-radius: 5px 5px 0 0 ;
+        width: 96% ;
+        text-align: center;
     }
+    //MUSIC
+    section#music h1 {
+        margin-left: 30%;
+    }
+    //SIDEBAR
     .sidebar{
         display: none;
     }
@@ -72,37 +187,54 @@
         width: 100%;
         margin: 25px 0;
     }
-    .comments .your-comment input[type="text"] {
-        width: 100%;
-        height: 50px;
-        margin: 5px 0;
-        padding: 0 10px;
+    //COMMENTS
+    input[type="text"] {
+        width: 100% !important;
     }
-    .comments .your-comment input[type="text-area"] {
-        width: 100%;
-        height: 150px;
-        margin: 5px 0;
-        padding: 0 10px;
+    textarea{
+        width: 100% !important;
     }
+    //ITEMS
     .item .item-text img {
-        width: 100%;
+        width: 100%  !important;
     }
-}
-/*    .logo{
+    
+    //FOOTER
+    footer .scrollToTop{
         display: none !important;
     }
-    .logo-mobile{
-        display: block !important;
-        margin-top: 25px;
+    //AD
+    .ad {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .logo{
+        display: none;
+    }
+    .logo-mobile {
+        display: block;
+        margin: 25px 55px;
+        float: left;
     }
     section.articles {
         display: block;
     }
     .latest-posts {
-        display: block !important;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
     }
     .topics-button {
         display: none;
+    }
+    ul.main-menu {
+        display: none;
+    }
+    .menu-item-title {
+        font-size: 40px;
+        margin: 0;
+        padding: 25px;
     }
     .mobile-menu {
         display: block;
@@ -130,74 +262,171 @@
         display: inline-block;
         color: #fff;
         position: relative;
-
-
-        li {
+        margin-right: 215px;
+        margin-top: 60px;
+        a {
             font-size: 25px;
             border: 1px solid #fff;
             display: inherit;
+            color: #fff;
+            padding: 30px;
         }
     }
-    .menu-item-title {
-        font-size: 40px;
-        margin: 0;
-        padding: 15px;
+    input#topic-search {
+        width: 875px;
+        height: 60px;
+        border-radius: 5px;
+        margin-left: 4%;
+        padding: 25px;
+        font-size: 20px;
+        margin-top: 30px;
     }
-    ul.main-menu {
-        display: none !important;
+    //PLAYGROUND
+    #handicrafts, #recipes, #art{
+        img{
+            display: none;   
+        }
+        .handicrafts-items, .recipes-items, .art-items  {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .handicrafts-item-first, .recipes-item-first, .art-item-first {
+            width: 100%;
+            padding: 0;
+            transform: rotate(0deg);
+            border: none;
+            height: 150px;
+        }
+        .handicrafts-item, .recipes-item, .art-item {
+            background-position-y: 0;
+            width: 100%;
+            padding: 15px 0;
+            height: 500px;
+
+        }
+        .handicrafts-item .item-title, .recipes-item .item-title {
+            position: relative;
+            top: 400px;
+            font-size: 40px;
+            color: #fff;
+            max-width: 100%;
+        }
+        .art-item .item-title {
+            position: relative;
+            top: 400px;
+            font-size: 40px;
+            color: #555;
+            max-width: 100%;
+        }
+
     }
-    #handicrafts img, #art img {
-        display: none;
+    //EVENTS
+    #events{
+        img{
+            display: none;   
+        }
+        .events-items {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: nowrap;
+            position: relative;
+            .events-item-first {
+                width: 100%;
+                padding: 15px 0;
+                transform: rotate(0deg);
+                height: 150px;
+                border: none;
+            }
+            .events-item-front {
+                width: 100%;
+                padding: 15px 0;
+                height: 500px;
+                .event-date {
+                    position: relative;
+                    top: 400px;
+                    font-size: 50px;
+                    color: #555;
+                    max-width: 100%;
+                    transition: all 0.5s ease-in-out;
+                }
+                .event-details{
+                    position: relative;
+                    top: 0;
+                    font-size: 50px;
+                    color: #555;
+                    max-width: 100%;
+                }
+                .ticket{
+                    transition: all.5s ease-in-out; 
+                    .get-tickets{
+                        padding: 30px;
+                        border: none;
+                        border-radius: 5px;
+                        color: #fff;
+                        font-family: inherit;
+                        font-size: 35px;
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
     }
-    .handicrafts-items .container, .art-items .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: nowrap;
-    }
-    .container .art-item, .art-items .container .handicrafts-item, .art-items .container .art-item {
-        background-image: url(../images/items/valentine32.png);
-        color: #e73e32;
+    //BOOKS
+    ul.tabs li {
+        background: #bc3428;
+        color: #fff;
+        font-size: 25px;
+        border-radius: 5px 5px 0 0 ;
+        width: 96% ;
         text-align: center;
-        border-radius: 10px;
-        margin: 5px;
-        cursor: pointer;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
-        border: 1px solid #555;
     }
-    #recipes img {
-        width: 242px;
-        float: left;
-        display: none;
+    //MUSIC
+    section#music h1 {
+        margin-left: 30%;
     }
-    .recipes-items .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: nowrap;
-    }
-    .recipes-items .container .recipes-item {
-        background-image: url(../images/items/valentine32.png);
-        color: #e73e32;
-        text-align: center;
-        border-radius: 10px;
-        margin: 5px;
-        cursor: pointer;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
-        border: 1px solid #555;
-    }
+    //SIDEBAR
     .sidebar{
         display: none;
     }
-    .gallery-images {
-        display: block;
-    }*/
+    ul.Instructions img {
+        width: 100%;
+        margin: 25px 0;
+    }
+    //COMMENTS
+    input[type="text"] {
+        width: 100% !important;
+    }
+    textarea{
+        width: 100% !important;
+    }
+    //ITEMS
+    .item .item-text img {
+        width: 100% !important;
+    }
+    
+    //FOOTER
+    footer .scrollToTop{
+        display: none !important;
+    }
+    //AD
+    .ad {
+        min-height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

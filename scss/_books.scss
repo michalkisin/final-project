@@ -1,4 +1,3 @@
-@media screen and (min-width: 768px){
 #books{
     padding: 0px;
     background: #e73e32;
@@ -24,6 +23,7 @@ ul.tabs{
     margin: 0px;
     padding: 0px;
     list-style: none;
+    margin-left: 10px;
     li{
         background: #811d15;
         color: #fff;
@@ -34,11 +34,11 @@ ul.tabs{
         border-radius: 5px 5px 0 0 ;
         width: 47%;
         text-align: center;
-        &:hover{
-            background: #fff;
-            color: #811d15;
-        }
+        transition: all .3s ease-in-out; 
     }
+}
+#tab-2{
+    display: none;
 }
 ul.tabs li.current {
     background: #bc3428;
@@ -53,6 +53,10 @@ ul.tabs li.current {
     background: #bc3428;;
     color: #fff;
     font-size: 17px;
+    &:hover{
+        color:#fff;
+    }
+
     img{
         width: 180px;
         float: right;
@@ -108,7 +112,7 @@ ul.tabs li.current {
             border-radius: 20px;
             transform-origin: 0 100%;
             transform: rotate(-11deg);
-            transition: transform .2s ease-out;
+            transition: transform .5s ease-out;
             float: left;
             margin: 0 15px;
             &:hover{
@@ -204,30 +208,6 @@ ul.tabs li.current {
 
 }
 
-
-}
-/*
-.book-cta__title {
-    display: block;
-    text-align: center;
-    background-image: linear-gradient(#ddd,#ddd);
-    background-size: 100% .06em;
-    background-repeat: no-repeat;
-    background-position: center center;
-    -ms-font-feature-settings: "smcp" 1,"c2sc" 1;
-    -o-font-feature-settings: "smcp" 1,"c2sc" 1;
-    font-feature-settings: "smcp" 1,"c2sc" 1;
-    letter-spacing: 1px;
-    font-variant: small-caps;
-    text-transform: lowercase;
-    background-position: center 72%;
-    line-height: 1;
-    margin: 0;
-    color: #999;
-    font-size: 1em;
-    margin: 1em auto 1em;
-    font-family: Georgia,serif;
-}*/
 
 
 

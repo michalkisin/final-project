@@ -8,9 +8,6 @@ section.articles {
     color: #fff;
     .article-title{
         margin-top: 40px;
-        &:hover{
-            color: #e82429;
-        }
     }
     a {
         color: #fff;
@@ -53,7 +50,7 @@ span.comment img {
     border-radius: 5px;
     transform-origin: 0 100%;
     transform: rotate(-11deg);
-    transition: transform .2s ease-out;
+    transition: transform .5s ease-out;
 }
 .author-img img:hover {
     transform: rotate(0deg);

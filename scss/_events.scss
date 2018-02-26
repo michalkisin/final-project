@@ -1,10 +1,22 @@
-@media screen and (min-width: 768px){
     .events-items{
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
         position: relative;
+        max-width: 1100px;
+        margin: 0 auto;
+        button.load-more {
+            padding: 15px;
+            background: none;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            color: #fff;
+            font-family: inherit;
+            font-size: 17px;
+            margin: 25px auto;
+            width: 150px;
+        }
     }
     .events-item-front {
         background-image: url(../images/items/kids-event.jpg);
@@ -17,42 +29,90 @@
         border-radius: 5px;
         text-align: center;
         padding: 15px;
-        /*&:hover{
-            opacity: 0.6;
-            color: #fff;
-        }*/
-        .item-title {
+        transition: transform .5s ease-in-out; 
+        .event-date {
             position: relative;
             top: 230px;
             font-size: 25px;
             color: #555;
             max-width: 200px;
         }
-    }
-    .events-item-back {
-        display: none;
-        background: #fff;
-        /*background-image: url(../images/items/valentine32.png);
-        background-repeat: no-repeat;
-        background-size: cover;*/
-        width: 200px;
-        margin: 5px;
-        height: 250px;
-        border: 1px solid #555;
-        border-radius: 5px;
-        text-align: center;
-        padding: 15px;
-        /*&:hover{
-            opacity: 0.6;
-            color: #fff;
-    }*/
-        .item-title {
+        .event-details{
+            display: none;
             position: relative;
             top: 0;
             font-size: 20px;
             color: #555;
             max-width: 200px;
-            margin-bottom: 15px;
+            margin-bottom: 5px;
+        }
+        .ticket{
+            display: none;
+            .get-tickets{
+                padding: 10px;
+                background: linear-gradient(#9ec14c, #41b14f);
+                border: none;
+                border-radius: 5px;
+                color: #fff;
+                font-family: inherit;
+                font-size: 17px;
+                margin-top: 5px;
+                cursor: pointer;
+            }
+
+        }
+        &:hover{
+            background: #fff;
+            width: 200px;
+            margin: 5px;
+            height: 250px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            text-align: center;
+            padding: 15px;
+            color: #000;
+        }
+
+    }
+    .events-item-front:hover{
+        transform: rotateY(180deg);
+    }
+    .events-item-front:hover .event-details {
+        display: block;
+        transform: rotateY(180deg);
+    }
+    .events-item-front:hover .ticket {
+        display: block;
+        transform: rotateY(180deg);
+    }
+    .events-item-front:hover .event-date {
+        display: none;
+        position: relative;
+        top: 230px;
+        font-size: 18px;
+        color: #e73e32;
+        max-width: 200px;
+    }
+    #events{
+        padding: 50px;
+        background: #e73e32;
+        h2{
+            text-align: center;
+            color: #fff;
+            font-size: 30px;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+        h3{
+            text-align: center;
+            color: #fff;
+            font-size: 25px;
+            margin-top: 0;
+        }
+        img{
+            width: 242px;
+            float: right;
+            
         }
     }
     .get-tickets{
@@ -79,7 +139,7 @@
         float: initial;
         transform-origin: 0 100%;
         transform: rotate(-11deg);
-        transition: transform .2s ease-out;
+        transition: transform .5s ease-out;
         padding-bottom: 15px;
         &:hover{
             transform: rotate(0deg);
@@ -97,4 +157,13 @@
             }
         }
     }
-}
+   //LOAD MORE
+    .more-events {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.9s;
+    }
+
+
+
+

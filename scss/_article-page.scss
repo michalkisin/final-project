@@ -12,6 +12,7 @@ section.articles-page{
         color: #333;
         text-decoration: none;
         font-size: 25px;
+        transition: all .2s ease-out;
         &:hover{
             color: #e82429;
         }
@@ -62,7 +63,7 @@ span.comment img {
     border-radius: 5px;
     transform-origin: 0 100%;
     transform: rotate(-11deg);
-    transition: transform .2s ease-out;
+    transition: transform .5s ease-out;
 }
 .author-img img:hover {
     transform: rotate(0deg);
@@ -120,3 +121,9 @@ span.comment img {
         font-size: 20px;
     }
 }
+   //LOAD MORE
+   .more-articles {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.9s;
+    }

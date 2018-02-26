@@ -7,10 +7,9 @@
 @import "_books.scss";
 @import "_events.scss";
 @import "_article-page";
+@import "_music.scss";
 
 @import url('https://fonts.googleapis.com/css?family=Courgette');
-
-@media screen and (min-width: 768px){
 body{
     font-family: cursive;
     margin: 0 auto;
@@ -47,6 +46,7 @@ a{
     margin-right: 100px;
     background-image: url(images/red.png);
     background: linear-gradient(to bottom, #0071c1, #b6d6ed);
+    transition: all .2s ease-out;
 }
 .seriously:hover .seriously-red {
     color: #e82429;
@@ -71,8 +71,7 @@ a{
 .ad {
     background: linear-gradient(to bottom, #0071c1, #b6d6ed);
     color: #fff;
-    padding: 70px 50px;
-    height: 400px;
+    padding: 120px 50px;
     a{
         color: #fff;
     }
@@ -90,6 +89,7 @@ a{
         transition: transform .2s ease-out;
         float: right;
         margin: -100px 40px 0 0 ;
+        transition: transform .5s ease-in-out;  
         &:hover {
             transform: rotate(0deg);
         }
@@ -139,8 +139,11 @@ a.btn-ad {
         max-width: 700px;
         margin: 0 auto;
     }
+    h1{
+        text-align: center;
+    }
     img{
-        width: 700px;
+        width: 350px;
         float: none;
         margin-top: 75px;
         margin-bottom: -74px;
@@ -187,6 +190,17 @@ section.posts {
     color: #666;
     margin-bottom: 55px;
     position: relative;
+    transition: all 0.8s ease;
+    p {
+        color: #777;
+        line-height: 1.5;
+    }
+    &:hover{
+        background: #fff;
+        transform: scale(1.2);
+        z-index: 10;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.42);
+    }
     img{
         width: 200px;
         margin-left: 25%;
@@ -207,12 +221,6 @@ section.posts {
 }
 a.article-post-author span{
     text-decoration: none;
-}
-.article-post:hover {
-    background: #fff;
-    transform: scale(1.2);
-    z-index: 10;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.42);
 }
 .read-more a {
     text-decoration: none;
@@ -238,12 +246,9 @@ a.article-post-author span{
     color: #000;
     font-size: 1.5em;
     padding: 15px 0;
-}
-.post-title:hover {
-    color: #e82429;
-}
-.article-post p {
-    color: #666;
+    &:hover{
+        color: #e82429;
+    }
 }
 .post-author {
     color: #666;
@@ -281,10 +286,10 @@ a.article-post-author span{
     .for-me a{
         background: #fff;
         color: #2da2c5;
+        &:hover{
+            color: #e82429;
+        }
     }
-}
-.for-me a:hover {
-    color: #e82429;
 }
 .have-an-account {
     width: 125px;
@@ -300,9 +305,13 @@ a.article-post-author span{
     position: relative;
 }
 .ad-1{
+    p{
+        font-size: 1.3em;
+        line-height: 2;
+    }
     li{
         list-style: disc;
-        font-size: 21px;
+        font-size: 1.3em;
         line-height: 2;
     }
     img {
@@ -366,7 +375,7 @@ footer {
         background: url('arrow_up.png') no-repeat 0px 20px;
         transform-origin: 0 100%;
         transform: rotate(-11deg);
-        transition: transform .2s ease-out;
+        transition: transform .5s ease-out;
         &:hover{
             text-decoration:none;
             transform: rotate(0deg);
@@ -395,7 +404,24 @@ button.load-more {
     margin: 25px auto;
     width: 150px;
 }
+
+
+/*@media only screen  and (min-width : 1824px) {
+li.main-menu-item {
+    text-align: center;
+    color: #fff;
+    padding: 0 60px;
 }
+.menu-item-title {
+    font-size: 30px;
+    margin: 0;
+}
+li.main-menu-item p {
+    margin-top: 8px;
+    font-size: 20px;
+    max-width: 160px;
+}
+}*/
 
 
 

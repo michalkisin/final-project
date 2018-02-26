@@ -1,0 +1,45 @@
+
+    section#music{
+        background: #e73e32;
+        padding: 5%;
+        h1 {
+            color: #fff;
+            font-size: 50px;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 500px;
+            animation: keyframes 3s steps(500) infinite;
+            margin-left: 35%;
+            height: 70px;
+        }
+        img:nth-of-type(1) {
+            width: 230px;
+            float: right;
+            position: relative;
+            bottom: 180px;
+        }
+        img:nth-of-type(2){
+        width: 150px;
+        float: left;
+        position: relative;
+        bottom: 100px;
+        transform-origin: 0 100%;
+        transform: rotate(-11deg);
+        transition: transform .5s ease-out;
+        padding-bottom: 15px;
+        &:hover{
+            transform: rotate(0deg);
+        }
+    } 
+        @keyframes keyframes{ 
+        from{ width: 0px;} 
+        }
+
+}
+.main-content{
+    .event-ad h1 {
+        text-align: center;
+        margin-left: 18%;
+    } 
+}
+
