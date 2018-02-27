@@ -248,360 +248,6 @@ span.comment img {
   .category a {
     font-size: 20px; }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .logo {
-    display: none; }
-
-  .logo-mobile {
-    display: block !important;
-    margin: 25px 55px;
-    float: left; }
-
-  section.articles {
-    display: block; }
-
-  .latest-posts {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr) !important; }
-
-  .topics-button {
-    display: none; }
-
-  ul.main-menu {
-    display: none; }
-
-  .menu-item-title {
-    font-size: 40px;
-    margin: 0;
-    padding: 25px; }
-
-  .mobile-menu {
-    display: block;
-    position: absolute;
-    right: 60px;
-    top: 60px;
-    font-size: 20px;
-    width: 130px; }
-
-  .mobile-button {
-    border: 3px solid #fff;
-    border-radius: 5px;
-    color: #fff;
-    position: absolute;
-    text-align: center;
-    line-height: 2;
-    font-family: sans-serif;
-    background-image: url(images/search.png);
-    display: block;
-    width: 200px;
-    font-size: 40px;
-    right: 0px; }
-
-  ul.mobile-menu-list {
-    display: inline-block;
-    color: #fff;
-    position: relative;
-    margin-right: 215px;
-    margin-top: 60px; }
-    ul.mobile-menu-list a {
-      font-size: 25px;
-      border: 1px solid #fff;
-      display: inherit;
-      color: #fff;
-      padding: 30px; }
-
-  input#topic-search {
-    width: 875px;
-    height: 60px;
-    border-radius: 5px;
-    margin-left: 4%;
-    padding: 25px;
-    font-size: 20px;
-    margin-top: 30px; }
-
-  #handicrafts img, #recipes img, #art img {
-    display: none; }
-  #handicrafts .handicrafts-items, #handicrafts .recipes-items, #handicrafts .art-items, #recipes .handicrafts-items, #recipes .recipes-items, #recipes .art-items, #art .handicrafts-items, #art .recipes-items, #art .art-items {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    position: relative; }
-  #handicrafts .handicrafts-item-first, #handicrafts .recipes-item-first, #handicrafts .art-item-first, #recipes .handicrafts-item-first, #recipes .recipes-item-first, #recipes .art-item-first, #art .handicrafts-item-first, #art .recipes-item-first, #art .art-item-first {
-    width: 100%;
-    padding: 0;
-    transform: rotate(0deg);
-    border: none;
-    height: 150px; }
-  #handicrafts .handicrafts-item, #handicrafts .recipes-item, #handicrafts .art-item, #recipes .handicrafts-item, #recipes .recipes-item, #recipes .art-item, #art .handicrafts-item, #art .recipes-item, #art .art-item {
-    background-position-y: 0;
-    width: 100%;
-    padding: 15px 0;
-    height: 500px; }
-  #handicrafts .handicrafts-item .item-title, #handicrafts .recipes-item .item-title, #recipes .handicrafts-item .item-title, #recipes .recipes-item .item-title, #art .handicrafts-item .item-title, #art .recipes-item .item-title {
-    position: relative;
-    top: 400px;
-    font-size: 40px;
-    color: #fff;
-    max-width: 100%; }
-  #handicrafts .art-item .item-title, #recipes .art-item .item-title, #art .art-item .item-title {
-    position: relative;
-    top: 400px;
-    font-size: 40px;
-    color: #555;
-    max-width: 100%; }
-
-  #events img {
-    display: none; }
-  #events .events-items {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    position: relative; }
-    #events .events-items .events-item-first {
-      width: 100%;
-      padding: 15px 0;
-      transform: rotate(0deg);
-      height: 150px;
-      border: none; }
-    #events .events-items .events-item-front {
-      width: 100%;
-      padding: 15px 0;
-      height: 500px; }
-      #events .events-items .events-item-front .event-date {
-        position: relative;
-        top: 400px;
-        font-size: 50px;
-        color: #555;
-        max-width: 100%;
-        transition: all 0.5s ease-in-out; }
-      #events .events-items .events-item-front .event-details {
-        position: relative;
-        top: 0;
-        font-size: 50px;
-        color: #555;
-        max-width: 100%; }
-      #events .events-items .events-item-front .ticket {
-        transition: all 0.5s ease-in-out; }
-        #events .events-items .events-item-front .ticket .get-tickets {
-          padding: 30px;
-          border: none;
-          border-radius: 5px;
-          color: #fff;
-          font-family: inherit;
-          font-size: 35px;
-          margin-top: 15px; }
-
-  ul.tabs li {
-    background: #bc3428;
-    color: #fff;
-    font-size: 25px;
-    border-radius: 5px 5px 0 0;
-    width: 96%;
-    text-align: center; }
-
-  section#music h1 {
-    margin-left: 30%; }
-
-  .sidebar {
-    display: none; }
-
-  ul.Instructions img {
-    width: 100%;
-    margin: 25px 0; }
-
-  input[type="text"] {
-    width: 100% !important; }
-
-  textarea {
-    width: 100% !important; }
-
-  .item .item-text img {
-    width: 100%  !important; }
-
-  footer .scrollToTop {
-    display: none !important; }
-
-  .ad {
-    height: 100%; } }
-@media screen and (max-width: 767px) {
-  .logo {
-    display: none; }
-
-  .logo-mobile {
-    display: block;
-    margin: 25px 55px;
-    float: left; }
-
-  section.articles {
-    display: block; }
-
-  .latest-posts {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr) !important; }
-
-  .topics-button {
-    display: none; }
-
-  ul.main-menu {
-    display: none; }
-
-  .menu-item-title {
-    font-size: 40px;
-    margin: 0;
-    padding: 25px; }
-
-  .mobile-menu {
-    display: block;
-    position: absolute;
-    right: 60px;
-    top: 60px;
-    font-size: 20px;
-    width: 130px; }
-
-  .mobile-button {
-    border: 3px solid #fff;
-    border-radius: 5px;
-    color: #fff;
-    position: absolute;
-    text-align: center;
-    line-height: 2;
-    font-family: sans-serif;
-    background-image: url(images/search.png);
-    display: block;
-    width: 200px;
-    font-size: 40px;
-    right: 0px; }
-
-  ul.mobile-menu-list {
-    display: inline-block;
-    color: #fff;
-    position: relative;
-    margin-right: 215px;
-    margin-top: 60px; }
-    ul.mobile-menu-list a {
-      font-size: 25px;
-      border: 1px solid #fff;
-      display: inherit;
-      color: #fff;
-      padding: 30px; }
-
-  input#topic-search {
-    width: 875px;
-    height: 60px;
-    border-radius: 5px;
-    margin-left: 4%;
-    padding: 25px;
-    font-size: 20px;
-    margin-top: 30px; }
-
-  #handicrafts img, #recipes img, #art img {
-    display: none; }
-  #handicrafts .handicrafts-items, #handicrafts .recipes-items, #handicrafts .art-items, #recipes .handicrafts-items, #recipes .recipes-items, #recipes .art-items, #art .handicrafts-items, #art .recipes-items, #art .art-items {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    position: relative; }
-  #handicrafts .handicrafts-item-first, #handicrafts .recipes-item-first, #handicrafts .art-item-first, #recipes .handicrafts-item-first, #recipes .recipes-item-first, #recipes .art-item-first, #art .handicrafts-item-first, #art .recipes-item-first, #art .art-item-first {
-    width: 100%;
-    padding: 0;
-    transform: rotate(0deg);
-    border: none;
-    height: 150px; }
-  #handicrafts .handicrafts-item, #handicrafts .recipes-item, #handicrafts .art-item, #recipes .handicrafts-item, #recipes .recipes-item, #recipes .art-item, #art .handicrafts-item, #art .recipes-item, #art .art-item {
-    background-position-y: 0;
-    width: 100%;
-    padding: 15px 0;
-    height: 500px; }
-  #handicrafts .handicrafts-item .item-title, #handicrafts .recipes-item .item-title, #recipes .handicrafts-item .item-title, #recipes .recipes-item .item-title, #art .handicrafts-item .item-title, #art .recipes-item .item-title {
-    position: relative;
-    top: 400px;
-    font-size: 40px;
-    color: #fff;
-    max-width: 100%; }
-  #handicrafts .art-item .item-title, #recipes .art-item .item-title, #art .art-item .item-title {
-    position: relative;
-    top: 400px;
-    font-size: 40px;
-    color: #555;
-    max-width: 100%; }
-
-  #events img {
-    display: none; }
-  #events .events-items {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    position: relative; }
-    #events .events-items .events-item-first {
-      width: 100%;
-      padding: 15px 0;
-      transform: rotate(0deg);
-      height: 150px;
-      border: none; }
-    #events .events-items .events-item-front {
-      width: 100%;
-      padding: 15px 0;
-      height: 500px; }
-      #events .events-items .events-item-front .event-date {
-        position: relative;
-        top: 400px;
-        font-size: 50px;
-        color: #555;
-        max-width: 100%;
-        transition: all 0.5s ease-in-out; }
-      #events .events-items .events-item-front .event-details {
-        position: relative;
-        top: 0;
-        font-size: 50px;
-        color: #555;
-        max-width: 100%; }
-      #events .events-items .events-item-front .ticket {
-        transition: all 0.5s ease-in-out; }
-        #events .events-items .events-item-front .ticket .get-tickets {
-          padding: 30px;
-          border: none;
-          border-radius: 5px;
-          color: #fff;
-          font-family: inherit;
-          font-size: 35px;
-          margin-top: 15px; }
-
-  ul.tabs li {
-    background: #bc3428;
-    color: #fff;
-    font-size: 25px;
-    border-radius: 5px 5px 0 0;
-    width: 96%;
-    text-align: center; }
-
-  section#music h1 {
-    margin-left: 30%; }
-
-  .sidebar {
-    display: none; }
-
-  ul.Instructions img {
-    width: 100%;
-    margin: 25px 0; }
-
-  input[type="text"] {
-    width: 100% !important; }
-
-  textarea {
-    width: 100% !important; }
-
-  .item .item-text img {
-    width: 100% !important; }
-
-  footer .scrollToTop {
-    display: none !important; }
-
-  .ad {
-    min-height: 100%; } }
 @keyframes starsAnimation {
   from {
     top: -100px; }
@@ -747,7 +393,9 @@ span.comment img {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  position: relative; }
+  position: relative;
+  margin: 0 auto;
+  max-width: 1100px; }
   .handicrafts-items button.load-more, .art-items button.load-more {
     padding: 15px;
     background: none;
@@ -759,102 +407,67 @@ span.comment img {
     margin: 25px auto;
     width: 150px; }
 
-.handicrafts-item {
-  background-image: url(../images/items/valentine32.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 200px;
-  margin: 5px;
-  height: 250px;
-  border: 1px solid #555;
-  border-radius: 5px;
-  text-align: center;
-  padding: 15px;
-  transition: opacity 1s; }
-  .handicrafts-item:hover {
-    opacity: 0.6;
-    color: #fff; }
-  .handicrafts-item .item-title {
-    position: relative;
-    top: 220px;
-    font-size: 15px;
-    color: #555;
-    max-width: 200px; }
+   /* .handicrafts-item {
+        background-image: url(../images/items/valentine32.png);
+        @include item;
+        &:hover{
+            opacity: 0.6;
+            color: #fff;     
+    }
+        .item-title {
+            @include item-title;
+            color: #555;
 
-.recipes-item {
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 200px;
-  margin: 5px;
-  height: 250px;
-  border: 1px solid #555;
-  border-radius: 5px;
-  text-align: center;
-  padding: 15px;
-  transition: opacity 2s; }
-  .recipes-item:nth-child(1) {
-    background-image: url(../images/items/c9023d1aa05d0c0b56d428a3536cb9e2.png); }
-  .recipes-item:nth-child(2) {
-    background-image: url(../images/items/ba4c92de30c357d7fe3e0a252e290e55.png); }
-  .recipes-item:hover {
-    opacity: 0.6;
-    color: #fff; }
-  .recipes-item .item-title {
-    position: relative;
-    top: 220px;
-    font-size: 17px;
-    color: #fff;
-    max-width: 200px; }
-
-.art-item {
-  background-image: url(../images/items/teacup_mermaid_bubblebath.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 200px;
-  margin: 5px;
-  height: 250px;
-  border: 1px solid #555;
-  border-radius: 5px;
-  text-align: center;
-  padding: 15px;
-  transition: opacity 2s; }
-  .art-item:hover {
-    opacity: 0.6;
-    color: #fff; }
-  .art-item .item-title {
-    position: relative;
-    top: 235px;
-    font-size: 15px;
-    color: #555;
-    max-width: 200px; }
-
-.handicrafts-item-first, .recipes-item-first, .art-item-first {
-  background: #fff;
-  width: 200px;
-  margin: 5px;
-  height: 250px;
-  border: 1px solid #555;
-  border-radius: 5px;
-  text-align: center;
-  padding: 15px;
-  position: relative;
-  float: initial;
-  transform-origin: 0 100%;
-  transform: rotate(-11deg);
-  transition: transform .2s ease-out;
-  padding-bottom: 15px;
-  transition: transform .5s ease-in-out; }
-  .handicrafts-item-first:hover, .recipes-item-first:hover, .art-item-first:hover {
-    transform: rotate(0deg); }
-  .handicrafts-item-first .item-title-first p:nth-of-type(1), .recipes-item-first .item-title-first p:nth-of-type(1), .art-item-first .item-title-first p:nth-of-type(1) {
-    color: #e73e32;
-    font-size: 30px;
-    font-weight: bold; }
-  .handicrafts-item-first .item-title-first p:nth-of-type(2), .recipes-item-first .item-title-first p:nth-of-type(2), .art-item-first .item-title-first p:nth-of-type(2) {
-    color: #555;
-    font-size: 25px;
-    font-weight: bold; }
-
+        }
+    }
+    .recipes-item{
+        &:nth-child(1){
+            background-image: url(../images/items/c9023d1aa05d0c0b56d428a3536cb9e2.png);
+        }
+        &:nth-child(2){
+            background-image: url(../images/items/ba4c92de30c357d7fe3e0a252e290e55.png);
+        }
+        @include item;
+        &:hover{
+            opacity: 0.6;
+            color: #fff;
+    }
+        .item-title {
+            @include item-title;
+            color: #fff;
+        }
+    }
+    .art-item {
+        background-image: url(../images/items/teacup_mermaid_bubblebath.jpg);
+        @include item;
+        &:hover{
+            opacity: 0.6;
+            color: #fff;
+    }
+        .item-title {
+        @include item-title;
+        color: #555;
+ 
+        }
+    }
+    .handicrafts-item-first, .recipes-item-first, .art-item-first {
+        @include item-first;
+        &:hover{
+            transform: rotate(0deg);
+        }
+        .item-title-first{
+            p:nth-of-type(1){
+                color: #e73e32;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            p:nth-of-type(2){
+                color: #555;
+                font-size: 25px;
+                font-weight: bold;
+            }
+        }
+    }*/
 #handicrafts, #art {
   padding: 50px;
   background: #e73e32; }
@@ -1171,17 +784,7 @@ ul.ingredients {
   visibility: hidden;
   color: red; }
 
-.more-handicrafts {
-  height: 0px;
-  overflow: hidden;
-  transition: height 0.9s; }
-
-.more-recipes {
-  height: 0px;
-  overflow: hidden;
-  transition: height 0.9s; }
-
-.more-art {
+.more-handicrafts, .more-recipes, .more-art {
   height: 0px;
   overflow: hidden;
   transition: height 0.9s; }
@@ -1490,8 +1093,8 @@ ul.tabs li.current {
   float: initial;
   transform-origin: 0 100%;
   transform: rotate(-11deg);
-  transition: transform .5s ease-out;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  transition: transform .5s ease-in-out; }
   .events-item-first:hover {
     transform: rotate(0deg); }
   .events-item-first .item-title-first p:nth-of-type(1) {
@@ -1655,6 +1258,967 @@ section#music {
 .main-content .event-ad h1 {
   text-align: center;
   margin-left: 18%; }
+
+.handicrafts-item-1 {
+  background-image: url(../images/items/valentine-card-how-to-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .handicrafts-item-1:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .handicrafts-item-1 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.handicrafts-item-2 {
+  background-image: url(../images/items/slime-recipe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .handicrafts-item-2:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .handicrafts-item-2 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.handicrafts-item-3 {
+  background-image: url(../images/items/Gummy-Worm-Valentines-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .handicrafts-item-3:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .handicrafts-item-3 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.handicrafts-item-4 {
+  background-image: url(../images/items/Easter-Treats-Rice-Krispie.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .handicrafts-item-4:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .handicrafts-item-4 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.handicrafts-item-5 {
+  background-image: url(../images/items/clothespin-christmas-tree-craft.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .handicrafts-item-5:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .handicrafts-item-5 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.handicrafts-item-6 {
+  background-image: url(../images/items/geode2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .handicrafts-item-6:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .handicrafts-item-6 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.handicrafts-item-7 {
+  background-image: url(../images/items/clay-eggs-dragons-mermaids.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .handicrafts-item-7:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .handicrafts-item-7 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.handicrafts-item-8 {
+  background-image: url(../images/items/Fish-in-a-Bag-Slime.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .handicrafts-item-8:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .handicrafts-item-8 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.handicrafts-item-9 {
+  background-image: url(../images/items/76766_467432014_l.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .handicrafts-item-9:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .handicrafts-item-9 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.handicrafts-item-10 {
+  background-image: url(../images/items/clothespin-dragonfly-craft-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .handicrafts-item-10:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .handicrafts-item-10 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.handicrafts-item-11 {
+  background-image: url(../images/items/PaperStrawPinwheels1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .handicrafts-item-11:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .handicrafts-item-11 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.recipes-item-1 {
+  background-image: url(../images/items/c9023d1aa05d0c0b56d428a3536cb9e2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .recipes-item-1:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .recipes-item-1 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px;
+    color: #fff; }
+
+.recipes-item-2 {
+  background-image: url(../images/items/DSC04783-637x1024.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .recipes-item-2:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .recipes-item-2 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px;
+    color: #fff; }
+
+.recipes-item-3 {
+  background-image: url(../images/items/Super-Easy-Mini-Cheesecake-Cupcakes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .recipes-item-3:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .recipes-item-3 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px;
+    color: #fff; }
+
+.recipes-item-4 {
+  background-image: url(../images/items/Rosemary-sea-salt-and-vinegar-beet-chips.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .recipes-item-4:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .recipes-item-4 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px;
+    color: #fff; }
+
+.recipes-item-5 {
+  background-image: url(../images/items/landscape-1517960649-delish-cherry-love-notes-pinterest-still002.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .recipes-item-5:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .recipes-item-5 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px;
+    color: #fff; }
+
+.recipes-item-6 {
+  background-image: url(../images/items/Chocolate-Dipped-Strawberry-Meringue-Roses_exps157081_SD143204D12_04_1bC_RMS.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .recipes-item-6:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .recipes-item-6 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px;
+    color: #fff; }
+
+.recipes-item-7 {
+  background-image: url(../images/items/coconut-flour-brownies-1-650x975.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .recipes-item-7:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .recipes-item-7 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px;
+    color: #fff; }
+
+.recipes-item-8 {
+  background-image: url(../images/items/paleo-pancakes-5-600x900.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .recipes-item-8:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .recipes-item-8 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px;
+    color: #fff; }
+
+.recipes-item-9 {
+  background-image: url(../images/items/IMG_1745.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .recipes-item-9:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .recipes-item-9 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px;
+    color: #fff; }
+
+.recipes-item-10 {
+  background-image: url(../images/items/Super-Foods-Smoothie-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .recipes-item-10:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .recipes-item-10 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px;
+    color: #fff; }
+
+.recipes-item-11 {
+  background-image: url(../images/items/Apple-Pie-Smoothie-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .recipes-item-11:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .recipes-item-11 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px;
+    color: #fff; }
+
+.art-item-1 {
+  background-image: url(../images/items/teacup_mermaid_bubblebath.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .art-item-1:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .art-item-1 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.art-item-2 {
+  background-image: url(../images/items/66d38870e806bc91a6b48b59b0833f4b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .art-item-2:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .art-item-2 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.art-item-3 {
+  background-image: url(../images/items/bf07d5de25f004ccdea1117e5afb0089.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .art-item-3:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .art-item-3 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.art-item-4 {
+  background-image: url(../images/items/IHqIskV.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .art-item-4:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .art-item-4 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.art-item-5 {
+  background-image: url(../images/items/New-Acrylic-Painting-Ideas-to-Try-13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .art-item-5:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .art-item-5 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.art-item-6 {
+  background-image: url(../images/items/f2b24937d08921dc3736612d52b1c8e9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .art-item-6:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .art-item-6 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.art-item-7 {
+  background-image: url(../images/items/flutter-under-the-stars-tv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .art-item-7:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .art-item-7 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.art-item-8 {
+  background-image: url(../images/items/55861c697487551cdcb13b00b4187f90.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .art-item-8:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .art-item-8 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.art-item-9 {
+  background-image: url(../images/items/paintings59cb000f75263.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .art-item-9:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .art-item-9 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.art-item-10 {
+  background-image: url(../images/items/c51f2e6c93127fb4fc6ed869d8954b94.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .art-item-10:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .art-item-10 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.art-item-11 {
+  background-image: url(../images/items/1f4edca41552dc8b47e9132533c974d5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 1s; }
+  .art-item-11:hover {
+    opacity: 0.6;
+    color: #fff; }
+  .art-item-11 .item-title {
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px; }
+
+.handicrafts-item-first, .recipes-item-first, .art-item-first {
+  background: #fff;
+  width: 200px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  float: initial;
+  transform-origin: 0 100%;
+  transform: rotate(-11deg);
+  padding-bottom: 15px;
+  transition: transform .5s ease-in-out; }
+  .handicrafts-item-first:hover, .recipes-item-first:hover, .art-item-first:hover {
+    transform: rotate(0deg); }
+  .handicrafts-item-first .item-title-first p:nth-of-type(1), .recipes-item-first .item-title-first p:nth-of-type(1), .art-item-first .item-title-first p:nth-of-type(1) {
+    color: #e73e32;
+    font-size: 30px;
+    font-weight: bold; }
+  .handicrafts-item-first .item-title-first p:nth-of-type(2), .recipes-item-first .item-title-first p:nth-of-type(2), .art-item-first .item-title-first p:nth-of-type(2) {
+    color: #555;
+    font-size: 25px;
+    font-weight: bold; }
 
 body {
   font-family: cursive;
@@ -2007,21 +2571,372 @@ button.load-more {
   margin: 25px auto;
   width: 150px; }
 
-/*@media only screen  and (min-width : 1824px) {
-li.main-menu-item {
-    text-align: center;
-    color: #fff;
-    padding: 0 60px;
-}
-.menu-item-title {
-    font-size: 30px;
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    display: none; }
+
+  .logo-mobile {
+    display: block;
+    margin: 25px 55px;
+    float: left; }
+
+  section.articles {
+    display: block; }
+
+  .latest-posts {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+
+  .topics-button {
+    display: none; }
+
+  ul.main-menu {
+    display: none; }
+
+  .menu-item-title {
+    font-size: 40px;
     margin: 0;
-}
-li.main-menu-item p {
-    margin-top: 8px;
+    padding: 25px; }
+
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    right: 60px;
+    top: 60px;
     font-size: 20px;
-    max-width: 160px;
-}
-}*/
+    width: 130px; }
+
+  .mobile-button {
+    border: 3px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    line-height: 2;
+    font-family: sans-serif;
+    background-image: url(images/search.png);
+    display: block;
+    width: 200px;
+    font-size: 40px;
+    right: 0px; }
+
+  ul.mobile-menu-list {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    margin-right: 215px;
+    margin-top: 60px; }
+    ul.mobile-menu-list a {
+      font-size: 25px;
+      border: 1px solid #fff;
+      display: inherit;
+      color: #fff;
+      padding: 30px; }
+
+  input#topic-search {
+    width: 875px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 4%;
+    padding: 25px;
+    font-size: 20px;
+    margin-top: 30px; }
+
+  #handicrafts img, #recipes img, #art img {
+    display: none; }
+  #handicrafts .handicrafts-items, #handicrafts .recipes-items, #handicrafts .art-items, #recipes .handicrafts-items, #recipes .recipes-items, #recipes .art-items, #art .handicrafts-items, #art .recipes-items, #art .art-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: relative; }
+  #handicrafts .handicrafts-item-first, #handicrafts .recipes-item-first, #handicrafts .art-item-first, #recipes .handicrafts-item-first, #recipes .recipes-item-first, #recipes .art-item-first, #art .handicrafts-item-first, #art .recipes-item-first, #art .art-item-first {
+    width: 100%;
+    padding: 0;
+    transform: rotate(0deg);
+    border: none;
+    height: 150px; }
+  #handicrafts .handicrafts-item-1, #handicrafts .handicrafts-item-2, #handicrafts .handicrafts-item-3, #handicrafts .handicrafts-item-4, #handicrafts .handicrafts-item-5, #handicrafts .handicrafts-item-6, #handicrafts .handicrafts-item-7, #handicrafts .handicrafts-item-8, #handicrafts .handicrafts-item-9, #handicrafts .handicrafts-item-10, #handicrafts .handicrafts-item-11, #recipes .handicrafts-item-1, #recipes .handicrafts-item-2, #recipes .handicrafts-item-3, #recipes .handicrafts-item-4, #recipes .handicrafts-item-5, #recipes .handicrafts-item-6, #recipes .handicrafts-item-7, #recipes .handicrafts-item-8, #recipes .handicrafts-item-9, #recipes .handicrafts-item-10, #recipes .handicrafts-item-11, #art .handicrafts-item-1, #art .handicrafts-item-2, #art .handicrafts-item-3, #art .handicrafts-item-4, #art .handicrafts-item-5, #art .handicrafts-item-6, #art .handicrafts-item-7, #art .handicrafts-item-8, #art .handicrafts-item-9, #art .handicrafts-item-10, #art .handicrafts-item-11 {
+    background-position-y: 0;
+    width: 100%;
+    padding: 15px 0;
+    height: 500px; }
+  #handicrafts .recipes-item-1, #handicrafts .recipes-item-2, #handicrafts .recipes-item-3, #handicrafts .recipes-item-4, #handicrafts .recipes-item-5, #handicrafts .recipes-item-6, #handicrafts .recipes-item-7, #handicrafts .recipes-item-8, #handicrafts .recipes-item-9, #handicrafts .recipes-item-10, #handicrafts .recipes-item-11, #recipes .recipes-item-1, #recipes .recipes-item-2, #recipes .recipes-item-3, #recipes .recipes-item-4, #recipes .recipes-item-5, #recipes .recipes-item-6, #recipes .recipes-item-7, #recipes .recipes-item-8, #recipes .recipes-item-9, #recipes .recipes-item-10, #recipes .recipes-item-11, #art .recipes-item-1, #art .recipes-item-2, #art .recipes-item-3, #art .recipes-item-4, #art .recipes-item-5, #art .recipes-item-6, #art .recipes-item-7, #art .recipes-item-8, #art .recipes-item-9, #art .recipes-item-10, #art .recipes-item-11 {
+    background-position-y: 0;
+    width: 100%;
+    padding: 15px 0;
+    height: 500px; }
+  #handicrafts .art-item-1, #handicrafts .art-item-2, #handicrafts .art-item-3, #handicrafts .art-item-4, #handicrafts .art-item-5, #handicrafts .art-item-6, #handicrafts .art-item-7, #handicrafts .art-item-8, #handicrafts .art-item-9, #handicrafts .art-item-10, #handicrafts .art-item-11, #recipes .art-item-1, #recipes .art-item-2, #recipes .art-item-3, #recipes .art-item-4, #recipes .art-item-5, #recipes .art-item-6, #recipes .art-item-7, #recipes .art-item-8, #recipes .art-item-9, #recipes .art-item-10, #recipes .art-item-11, #art .art-item-1, #art .art-item-2, #art .art-item-3, #art .art-item-4, #art .art-item-5, #art .art-item-6, #art .art-item-7, #art .art-item-8, #art .art-item-9, #art .art-item-10, #art .art-item-11 {
+    background-position-y: 0;
+    width: 100%;
+    padding: 15px 0;
+    height: 500px; }
+  #handicrafts .handicrafts-item-1 .item-title, #handicrafts .handicrafts-item-2 .item-title, #handicrafts .handicrafts-item-3 .item-title, #handicrafts .handicrafts-item-4 .item-title, #handicrafts .handicrafts-item-5 .item-title, #handicrafts .handicrafts-item-6 .item-title, #handicrafts .handicrafts-item-7 .item-title, #handicrafts .handicrafts-item-8 .item-title, #handicrafts .handicrafts-item-9 .item-title, #handicrafts .handicrafts-item-10 .item-title, #handicrafts .handicrafts-item-11 .item-title, #recipes .handicrafts-item-1 .item-title, #recipes .handicrafts-item-2 .item-title, #recipes .handicrafts-item-3 .item-title, #recipes .handicrafts-item-4 .item-title, #recipes .handicrafts-item-5 .item-title, #recipes .handicrafts-item-6 .item-title, #recipes .handicrafts-item-7 .item-title, #recipes .handicrafts-item-8 .item-title, #recipes .handicrafts-item-9 .item-title, #recipes .handicrafts-item-10 .item-title, #recipes .handicrafts-item-11 .item-title, #art .handicrafts-item-1 .item-title, #art .handicrafts-item-2 .item-title, #art .handicrafts-item-3 .item-title, #art .handicrafts-item-4 .item-title, #art .handicrafts-item-5 .item-title, #art .handicrafts-item-6 .item-title, #art .handicrafts-item-7 .item-title, #art .handicrafts-item-8 .item-title, #art .handicrafts-item-9 .item-title, #art .handicrafts-item-10 .item-title, #art .handicrafts-item-11 .item-title {
+    position: relative;
+    top: 400px;
+    font-size: 40px;
+    max-width: 100%; }
+  #handicrafts .recipes-item-1 .item-title, #handicrafts .recipes-item-2 .item-title, #handicrafts .recipes-item-3 .item-title, #handicrafts .recipes-item-4 .item-title, #handicrafts .recipes-item-5 .item-title, #handicrafts .recipes-item-6 .item-title, #handicrafts .recipes-item-7 .item-title, #handicrafts .recipes-item-8 .item-title, #handicrafts .recipes-item-9 .item-title, #handicrafts .recipes-item-10 .item-title, #handicrafts .recipes-item-11 .item-title, #recipes .recipes-item-1 .item-title, #recipes .recipes-item-2 .item-title, #recipes .recipes-item-3 .item-title, #recipes .recipes-item-4 .item-title, #recipes .recipes-item-5 .item-title, #recipes .recipes-item-6 .item-title, #recipes .recipes-item-7 .item-title, #recipes .recipes-item-8 .item-title, #recipes .recipes-item-9 .item-title, #recipes .recipes-item-10 .item-title, #recipes .recipes-item-11 .item-title, #art .recipes-item-1 .item-title, #art .recipes-item-2 .item-title, #art .recipes-item-3 .item-title, #art .recipes-item-4 .item-title, #art .recipes-item-5 .item-title, #art .recipes-item-6 .item-title, #art .recipes-item-7 .item-title, #art .recipes-item-8 .item-title, #art .recipes-item-9 .item-title, #art .recipes-item-10 .item-title, #art .recipes-item-11 .item-title {
+    position: relative;
+    top: 400px;
+    font-size: 40px;
+    max-width: 100%; }
+  #handicrafts .art-item-1 .item-title, #handicrafts .art-item-2 .item-title, #handicrafts .art-item-3 .item-title, #handicrafts .art-item-4 .item-title, #handicrafts .art-item-5 .item-title, #handicrafts .art-item-6 .item-title, #handicrafts .art-item-7 .item-title, #handicrafts .art-item-8 .item-title, #handicrafts .art-item-9 .item-title, #handicrafts .art-item-10 .item-title, #handicrafts .art-item-11 .item-title, #recipes .art-item-1 .item-title, #recipes .art-item-2 .item-title, #recipes .art-item-3 .item-title, #recipes .art-item-4 .item-title, #recipes .art-item-5 .item-title, #recipes .art-item-6 .item-title, #recipes .art-item-7 .item-title, #recipes .art-item-8 .item-title, #recipes .art-item-9 .item-title, #recipes .art-item-10 .item-title, #recipes .art-item-11 .item-title, #art .art-item-1 .item-title, #art .art-item-2 .item-title, #art .art-item-3 .item-title, #art .art-item-4 .item-title, #art .art-item-5 .item-title, #art .art-item-6 .item-title, #art .art-item-7 .item-title, #art .art-item-8 .item-title, #art .art-item-9 .item-title, #art .art-item-10 .item-title, #art .art-item-11 .item-title {
+    position: relative;
+    top: 400px;
+    font-size: 40px;
+    max-width: 100%; }
+
+  #events img {
+    display: none; }
+  #events .events-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: relative; }
+    #events .events-items .events-item-first {
+      width: 100%;
+      padding: 15px 0;
+      transform: rotate(0deg);
+      height: 150px;
+      border: none; }
+    #events .events-items .events-item-front {
+      width: 100%;
+      padding: 15px 0;
+      height: 500px; }
+      #events .events-items .events-item-front .event-date {
+        position: relative;
+        top: 400px;
+        font-size: 50px;
+        color: #555;
+        max-width: 100%;
+        transition: all 0.5s ease-in-out; }
+      #events .events-items .events-item-front .event-details {
+        position: relative;
+        top: 0;
+        font-size: 50px;
+        color: #555;
+        max-width: 100%; }
+      #events .events-items .events-item-front .ticket {
+        transition: all 0.5s ease-in-out; }
+        #events .events-items .events-item-front .ticket .get-tickets {
+          padding: 30px;
+          border: none;
+          border-radius: 5px;
+          color: #fff;
+          font-family: inherit;
+          font-size: 35px;
+          margin-top: 15px; }
+
+  ul.tabs li {
+    background: #bc3428;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 5px 5px 0 0;
+    width: 96%;
+    text-align: center; }
+
+  section#music h1 {
+    margin-left: 30%; }
+
+  .sidebar {
+    display: none; }
+
+  ul.Instructions img {
+    width: 100%;
+    margin: 25px 0; }
+
+  input[type="text"] {
+    width: 100% !important; }
+
+  textarea {
+    width: 100% !important; }
+
+  .item .item-text img {
+    width: 100%; }
+
+  footer .scrollToTop {
+    display: none !important; }
+
+  .ad {
+    height: 100%; } }
+@media screen and (max-width: 767px) {
+  .logo {
+    display: none; }
+
+  .logo-mobile {
+    display: block;
+    margin: 25px 55px;
+    float: left; }
+
+  section.articles {
+    display: block; }
+
+  .latest-posts {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+
+  .topics-button {
+    display: none; }
+
+  ul.main-menu {
+    display: none; }
+
+  .menu-item-title {
+    font-size: 40px;
+    margin: 0;
+    padding: 25px; }
+
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    right: 60px;
+    top: 60px;
+    font-size: 20px;
+    width: 130px; }
+
+  .mobile-button {
+    border: 3px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    line-height: 2;
+    font-family: sans-serif;
+    background-image: url(images/search.png);
+    display: block;
+    width: 200px;
+    font-size: 40px;
+    right: 0px; }
+
+  ul.mobile-menu-list {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    margin-right: 215px;
+    margin-top: 60px; }
+    ul.mobile-menu-list a {
+      font-size: 25px;
+      border: 1px solid #fff;
+      display: inherit;
+      color: #fff;
+      padding: 30px; }
+
+  input#topic-search {
+    width: 875px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 4%;
+    padding: 25px;
+    font-size: 20px;
+    margin-top: 30px; }
+
+  #handicrafts img, #recipes img, #art img {
+    display: none; }
+  #handicrafts .handicrafts-items, #handicrafts .recipes-items, #handicrafts .art-items, #recipes .handicrafts-items, #recipes .recipes-items, #recipes .art-items, #art .handicrafts-items, #art .recipes-items, #art .art-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: relative; }
+  #handicrafts .handicrafts-item-first, #handicrafts .recipes-item-first, #handicrafts .art-item-first, #recipes .handicrafts-item-first, #recipes .recipes-item-first, #recipes .art-item-first, #art .handicrafts-item-first, #art .recipes-item-first, #art .art-item-first {
+    width: 100%;
+    padding: 0;
+    transform: rotate(0deg);
+    border: none;
+    height: 150px; }
+  #handicrafts .handicrafts-item, #handicrafts .recipes-item, #handicrafts .art-item, #recipes .handicrafts-item, #recipes .recipes-item, #recipes .art-item, #art .handicrafts-item, #art .recipes-item, #art .art-item {
+    background-position-y: 0;
+    width: 100%;
+    padding: 15px 0;
+    height: 500px; }
+  #handicrafts .handicrafts-item .item-title, #handicrafts .recipes-item .item-title, #recipes .handicrafts-item .item-title, #recipes .recipes-item .item-title, #art .handicrafts-item .item-title, #art .recipes-item .item-title {
+    position: relative;
+    top: 400px;
+    font-size: 40px;
+    color: #fff;
+    max-width: 100%; }
+  #handicrafts .art-item .item-title, #recipes .art-item .item-title, #art .art-item .item-title {
+    position: relative;
+    top: 400px;
+    font-size: 40px;
+    color: #555;
+    max-width: 100%; }
+
+  #events img {
+    display: none; }
+  #events .events-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: relative; }
+    #events .events-items .events-item-first {
+      width: 100%;
+      padding: 15px 0;
+      transform: rotate(0deg);
+      height: 150px;
+      border: none; }
+    #events .events-items .events-item-front {
+      width: 100%;
+      padding: 15px 0;
+      height: 500px; }
+      #events .events-items .events-item-front .event-date {
+        position: relative;
+        top: 400px;
+        font-size: 50px;
+        color: #555;
+        max-width: 100%;
+        transition: all 0.5s ease-in-out; }
+      #events .events-items .events-item-front .event-details {
+        position: relative;
+        top: 0;
+        font-size: 50px;
+        color: #555;
+        max-width: 100%; }
+      #events .events-items .events-item-front .ticket {
+        transition: all 0.5s ease-in-out; }
+        #events .events-items .events-item-front .ticket .get-tickets {
+          padding: 30px;
+          border: none;
+          border-radius: 5px;
+          color: #fff;
+          font-family: inherit;
+          font-size: 35px;
+          margin-top: 15px; }
+
+  ul.tabs li {
+    background: #bc3428;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 5px 5px 0 0;
+    width: 96%;
+    text-align: center; }
+
+  section#music h1 {
+    margin-left: 30%; }
+
+  .sidebar {
+    display: none; }
+
+  ul.Instructions img {
+    width: 100%;
+    margin: 25px 0; }
+
+  input[type="text"] {
+    width: 100% !important; }
+
+  textarea {
+    width: 100% !important; }
+
+  .item .item-text img {
+    width: 100%; }
+
+  footer .scrollToTop {
+    display: none !important; }
+
+  .ad {
+    min-height: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
