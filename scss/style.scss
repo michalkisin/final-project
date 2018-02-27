@@ -1,14 +1,13 @@
 @import "_variables.scss";
 @import "_header.scss";
 @import "_articles.scss";
-@import "_mobile.scss";
 @import "_stars.scss";
 @import "_playground.scss";
 @import "_books.scss";
 @import "_events.scss";
 @import "_article-page";
 @import "_music.scss";
-
+@import "_items-cards.scss";
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 body{
     font-family: cursive;
@@ -22,7 +21,6 @@ body{
 .logo-mobile {
     display: none;
 }
-
 a{
     text-decoration: none;
 }
@@ -406,22 +404,461 @@ button.load-more {
 }
 
 
-/*@media only screen  and (min-width : 1824px) {
-li.main-menu-item {
-    text-align: center;
-    color: #fff;
-    padding: 0 60px;
+
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+    .logo{
+        display: none ;
+    }
+    .logo-mobile {
+        display: block ;
+        margin: 25px 55px;
+        float: left;
+    }
+    section.articles {
+        display: block;
+    }
+    .latest-posts {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) ;
+    }
+    .topics-button {
+        display: none;
+    }
+    ul.main-menu {
+        display: none;
+    }
+    .menu-item-title {
+        font-size: 40px;
+        margin: 0;
+        padding: 25px;
+    }
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        right: 60px;
+        top: 60px;
+        font-size: 20px;
+        width: 130px;
+    }
+    .mobile-button {
+        border: 3px solid #fff;
+        border-radius: 5px;
+        color: #fff;
+        position: absolute;
+        text-align: center;
+        line-height: 2;
+        font-family: sans-serif;
+        background-image: url(images/search.png);
+        display: block;
+        width: 200px;
+        font-size: 40px;
+        right: 0px;
+    }
+    ul.mobile-menu-list {
+        display: inline-block;
+        color: #fff;
+        position: relative;
+        margin-right: 215px;
+        margin-top: 60px;
+        a {
+            font-size: 25px;
+            border: 1px solid #fff;
+            display: inherit;
+            color: #fff;
+            padding: 30px;
+        }
+    }
+    input#topic-search {
+        width: 875px;
+        height: 60px;
+        border-radius: 5px;
+        margin-left: 4%;
+        padding: 25px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    //PLAYGROUND
+    #handicrafts, #recipes, #art{
+        img{
+            display: none;   
+        }
+        .handicrafts-items, .recipes-items, .art-items  {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .handicrafts-item-first, .recipes-item-first, .art-item-first {
+            width: 100%;
+            padding: 0;
+            transform: rotate(0deg);
+            border: none;
+            height: 150px;
+        }
+        .handicrafts-item-1, .handicrafts-item-2, .handicrafts-item-3,.handicrafts-item-4,.handicrafts-item-5,.handicrafts-item-6,.handicrafts-item-7,.handicrafts-item-8,.handicrafts-item-9,.handicrafts-item-10,.handicrafts-item-11 {
+            background-position-y: 0;
+            width: 100%;
+            padding: 15px 0;
+            height: 500px;
+
+        }
+        .recipes-item-1,.recipes-item-2,.recipes-item-3,.recipes-item-4,.recipes-item-5,.recipes-item-6,.recipes-item-7,.recipes-item-8,.recipes-item-9,.recipes-item-10,.recipes-item-11{
+            background-position-y: 0;
+            width: 100%;
+            padding: 15px 0;
+            height: 500px;
+
+        }
+        .art-item-1,.art-item-2,.art-item-3,.art-item-4,.art-item-5,.art-item-6,.art-item-7,.art-item-8,.art-item-9,.art-item-10,.art-item-11 {
+            background-position-y: 0;
+            width: 100%;
+            padding: 15px 0;
+            height: 500px;
+
+        }
+        .handicrafts-item-1 .item-title,.handicrafts-item-2 .item-title,.handicrafts-item-3 .item-title,.handicrafts-item-4 .item-title,.handicrafts-item-5 .item-title,.handicrafts-item-6 .item-title,.handicrafts-item-7 .item-title,.handicrafts-item-8 .item-title,.handicrafts-item-9 .item-title,.handicrafts-item-10 .item-title,.handicrafts-item-11 .item-title{
+            position: relative;
+            top: 400px;
+            font-size: 40px;
+            max-width: 100%;
+        }
+        .recipes-item-1 .item-title,.recipes-item-2 .item-title,.recipes-item-3 .item-title,.recipes-item-4 .item-title,.recipes-item-5 .item-title,.recipes-item-6 .item-title,.recipes-item-7 .item-title,.recipes-item-8 .item-title,.recipes-item-9 .item-title,.recipes-item-10 .item-title,.recipes-item-11 .item-title {
+            position: relative;
+            top: 400px;
+            font-size: 40px;
+            max-width: 100%;
+        }
+        .art-item-1 .item-title,.art-item-2 .item-title,.art-item-3 .item-title,.art-item-4 .item-title,.art-item-5 .item-title,.art-item-6 .item-title,.art-item-7 .item-title,.art-item-8 .item-title,.art-item-9 .item-title,.art-item-10 .item-title,.art-item-11 .item-title {
+            position: relative;
+            top: 400px;
+            font-size: 40px;
+            max-width: 100%;
+        }
+
+    }
+    //EVENTS
+    #events{
+        img{
+            display: none;   
+        }
+        .events-items {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: nowrap;
+            position: relative;
+            .events-item-first {
+                width: 100%;
+                padding: 15px 0;
+                transform: rotate(0deg);
+                height: 150px;
+                border: none;
+            }
+            .events-item-front {
+                width: 100%;
+                padding: 15px 0;
+                height: 500px;
+                .event-date {
+                    position: relative;
+                    top: 400px;
+                    font-size: 50px;
+                    color: #555;
+                    max-width: 100%;
+                    transition: all 0.5s ease-in-out;
+                }
+                .event-details{
+                    position: relative;
+                    top: 0;
+                    font-size: 50px;
+                    color: #555;
+                    max-width: 100%;
+                }
+                .ticket{
+                    transition: all.5s ease-in-out; 
+                    .get-tickets{
+                        padding: 30px;
+                        border: none;
+                        border-radius: 5px;
+                        color: #fff;
+                        font-family: inherit;
+                        font-size: 35px;
+                        margin-top: 15px;
+                    }
+        
+                }
+            }
+        }
+    }
+    //BOOKS
+    ul.tabs li {
+        background: #bc3428;
+        color: #fff;
+        font-size: 25px;
+        border-radius: 5px 5px 0 0 ;
+        width: 96% ;
+        text-align: center;
+    }
+    //MUSIC
+    section#music h1 {
+        margin-left: 30%;
+    }
+    //SIDEBAR
+    .sidebar{
+        display: none;
+    }
+    ul.Instructions img {
+        width: 100%;
+        margin: 25px 0;
+    }
+    //COMMENTS
+    input[type="text"] {
+        width: 100% !important;
+    }
+    textarea{
+        width: 100% !important;
+    }
+    //ITEMS
+    .item .item-text img {
+        width: 100%  ;
+    }
+    
+    //FOOTER
+    footer .scrollToTop{
+        display: none !important;
+    }
+    //AD
+    .ad {
+        height: 100%;
+    }
 }
-.menu-item-title {
-    font-size: 30px;
-    margin: 0;
+
+@media screen and (max-width: 767px){
+    .logo{
+        display: none;
+    }
+    .logo-mobile {
+        display: block;
+        margin: 25px 55px;
+        float: left;
+    }
+    section.articles {
+        display: block;
+    }
+    .latest-posts {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) ;
+    }
+    .topics-button {
+        display: none;
+    }
+    ul.main-menu {
+        display: none;
+    }
+    .menu-item-title {
+        font-size: 40px;
+        margin: 0;
+        padding: 25px;
+    }
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        right: 60px;
+        top: 60px;
+        font-size: 20px;
+        width: 130px;
+    }
+    .mobile-button {
+        border: 3px solid #fff;
+        border-radius: 5px;
+        color: #fff;
+        position: absolute;
+        text-align: center;
+        line-height: 2;
+        font-family: sans-serif;
+        background-image: url(images/search.png);
+        display: block;
+        width: 200px;
+        font-size: 40px;
+        right: 0px;
+    }
+    ul.mobile-menu-list {
+        display: inline-block;
+        color: #fff;
+        position: relative;
+        margin-right: 215px;
+        margin-top: 60px;
+        a {
+            font-size: 25px;
+            border: 1px solid #fff;
+            display: inherit;
+            color: #fff;
+            padding: 30px;
+        }
+    }
+    input#topic-search {
+        width: 875px;
+        height: 60px;
+        border-radius: 5px;
+        margin-left: 4%;
+        padding: 25px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    //PLAYGROUND
+    #handicrafts, #recipes, #art{
+        img{
+            display: none;   
+        }
+        .handicrafts-items, .recipes-items, .art-items  {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .handicrafts-item-first, .recipes-item-first, .art-item-first {
+            width: 100%;
+            padding: 0;
+            transform: rotate(0deg);
+            border: none;
+            height: 150px;
+        }
+        .handicrafts-item, .recipes-item, .art-item {
+            background-position-y: 0;
+            width: 100%;
+            padding: 15px 0;
+            height: 500px;
+
+        }
+        .handicrafts-item .item-title, .recipes-item .item-title {
+            position: relative;
+            top: 400px;
+            font-size: 40px;
+            color: #fff;
+            max-width: 100%;
+        }
+        .art-item .item-title {
+            position: relative;
+            top: 400px;
+            font-size: 40px;
+            color: #555;
+            max-width: 100%;
+        }
+
+    }
+    //EVENTS
+    #events{
+        img{
+            display: none;   
+        }
+        .events-items {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: nowrap;
+            position: relative;
+            .events-item-first {
+                width: 100%;
+                padding: 15px 0;
+                transform: rotate(0deg);
+                height: 150px;
+                border: none;
+            }
+            .events-item-front {
+                width: 100%;
+                padding: 15px 0;
+                height: 500px;
+                .event-date {
+                    position: relative;
+                    top: 400px;
+                    font-size: 50px;
+                    color: #555;
+                    max-width: 100%;
+                    transition: all 0.5s ease-in-out;
+                }
+                .event-details{
+                    position: relative;
+                    top: 0;
+                    font-size: 50px;
+                    color: #555;
+                    max-width: 100%;
+                }
+                .ticket{
+                    transition: all.5s ease-in-out; 
+                    .get-tickets{
+                        padding: 30px;
+                        border: none;
+                        border-radius: 5px;
+                        color: #fff;
+                        font-family: inherit;
+                        font-size: 35px;
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+    }
+    //BOOKS
+    ul.tabs li {
+        background: #bc3428;
+        color: #fff;
+        font-size: 25px;
+        border-radius: 5px 5px 0 0 ;
+        width: 96% ;
+        text-align: center;
+    }
+    //MUSIC
+    section#music h1 {
+        margin-left: 30%;
+    }
+    //SIDEBAR
+    .sidebar{
+        display: none;
+    }
+    ul.Instructions img {
+        width: 100%;
+        margin: 25px 0;
+    }
+    //COMMENTS
+    input[type="text"] {
+        width: 100% !important;
+    }
+    textarea{
+        width: 100% !important;
+    }
+    //ITEMS
+    .item .item-text img {
+        width: 100% ;
+    }
+    
+    //FOOTER
+    footer .scrollToTop{
+        display: none !important;
+    }
+    //AD
+    .ad {
+        min-height: 100%;
+    }
 }
-li.main-menu-item p {
-    margin-top: 8px;
-    font-size: 20px;
-    max-width: 160px;
-}
-}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

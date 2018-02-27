@@ -1,4 +1,61 @@
-@mixin color-red{
-    background: #e82429;
+@mixin items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1100px;
 }
-
+@mixin item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    margin: 5px;
+    height: 250px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    transition: opacity 1s;
+}
+@mixin item-title{
+    position: relative;
+    top: 215px;
+    font-size: 14px;
+    max-width: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #e73e32;
+    border-radius: 5px;
+    min-height: 30px;
+    padding: 5px;
+}
+@mixin load-more{
+    padding: 15px;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 17px;
+    margin: 25px auto;
+    width: 150px;
+}
+@mixin item-first{
+    background: #fff;
+    width: 200px;
+    margin: 5px;
+    height: 250px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    float: initial;
+    transform-origin: 0 100%;
+    transform: rotate(-11deg);
+    padding-bottom: 15px;
+    transition: transform .5s ease-in-out; 
+}

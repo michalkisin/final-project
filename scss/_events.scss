@@ -7,15 +7,7 @@
         max-width: 1100px;
         margin: 0 auto;
         button.load-more {
-            padding: 15px;
-            background: none;
-            border: 1px solid #fff;
-            border-radius: 5px;
-            color: #fff;
-            font-family: inherit;
-            font-size: 17px;
-            margin: 25px auto;
-            width: 150px;
+            @include load-more;
         }
     }
     .events-item-front {
@@ -127,20 +119,7 @@
     }
 
     .events-item-first {
-        background: #fff;
-        width: 200px;
-        margin: 5px;
-        height: 250px;
-        border: 1px solid #555;
-        border-radius: 5px;
-        text-align: center;
-        padding: 15px;
-        position: relative;
-        float: initial;
-        transform-origin: 0 100%;
-        transform: rotate(-11deg);
-        transition: transform .5s ease-out;
-        padding-bottom: 15px;
+        @include item-first;
         &:hover{
             transform: rotate(0deg);
         }

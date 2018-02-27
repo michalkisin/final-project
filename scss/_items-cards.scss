@@ -1,0 +1,396 @@
+.handicrafts-item-1 {
+    background-image: url(../images/items/valentine-card-how-to-1.png);
+    @include item;
+
+    &:hover{
+        opacity: 0.6;
+        color: #fff;     
+}
+    .item-title {
+        @include item-title;
+    }
+}
+.handicrafts-item-2 {
+    background-image: url(../images/items/slime-recipe.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;     
+}
+    .item-title {
+        @include item-title;
+    }
+}
+.handicrafts-item-3 {
+    background-image: url(../images/items/Gummy-Worm-Valentines-7.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;     
+}
+    .item-title {
+        @include item-title;
+    }
+}
+.handicrafts-item-4 {
+    background-image: url(../images/items/Easter-Treats-Rice-Krispie.png);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;     
+}
+    .item-title {
+        @include item-title;
+    }
+}
+.handicrafts-item-5 {
+    background-image: url(../images/items/clothespin-christmas-tree-craft.png);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;     
+}
+    .item-title {
+        @include item-title;
+    }
+}
+.handicrafts-item-6 {
+    background-image: url(../images/items/geode2.jpg );
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;     
+}
+    .item-title {
+        @include item-title;
+    }
+}
+.handicrafts-item-7 {
+    background-image: url(../images/items/clay-eggs-dragons-mermaids.png);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;     
+}
+    .item-title {
+        @include item-title;
+    }
+}
+.handicrafts-item-8 {
+    background-image: url(../images/items/Fish-in-a-Bag-Slime.png);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;     
+}
+    .item-title {
+        @include item-title;
+    }
+}
+.handicrafts-item-9 {
+    background-image: url(../images/items/76766_467432014_l.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;     
+}
+    .item-title {
+        @include item-title;
+    }
+}
+.handicrafts-item-10 {
+    background-image: url(../images/items/clothespin-dragonfly-craft-3.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;     
+}
+    .item-title {
+        @include item-title;
+    }
+}
+.handicrafts-item-11 {
+    background-image: url(../images/items/PaperStrawPinwheels1.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;     
+}
+    .item-title {
+        @include item-title;
+    }
+}
+
+.recipes-item-1{
+    background-image: url(../images/items/c9023d1aa05d0c0b56d428a3536cb9e2.png);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+        @include item-title;
+        color: #fff;
+    }
+}
+.recipes-item-2{
+    background-image: url(../images/items/DSC04783-637x1024.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+        @include item-title;
+        color: #fff;
+    }
+}
+.recipes-item-3{
+    background-image: url(../images/items/Super-Easy-Mini-Cheesecake-Cupcakes.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+        @include item-title;
+        color: #fff;
+    }
+}
+.recipes-item-4{
+    background-image: url(../images/items/Rosemary-sea-salt-and-vinegar-beet-chips.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+        @include item-title;
+        color: #fff;
+    }
+}
+.recipes-item-5{
+    background-image: url(../images/items/landscape-1517960649-delish-cherry-love-notes-pinterest-still002.png);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+        @include item-title;
+        color: #fff;
+    }
+}
+.recipes-item-6{
+    background-image: url(../images/items/Chocolate-Dipped-Strawberry-Meringue-Roses_exps157081_SD143204D12_04_1bC_RMS.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+        @include item-title;
+        color: #fff;
+    }
+}
+.recipes-item-7{
+    background-image: url(../images/items/coconut-flour-brownies-1-650x975.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+        @include item-title;
+        color: #fff;
+    }
+}
+.recipes-item-8{
+    background-image: url(../images/items/paleo-pancakes-5-600x900.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+        @include item-title;
+        color: #fff;
+    }
+}
+.recipes-item-9{
+    background-image: url(../images/items/IMG_1745.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+        @include item-title;
+        color: #fff;
+    }
+}
+.recipes-item-10{
+    background-image: url(../images/items/Super-Foods-Smoothie-4.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+        @include item-title;
+        color: #fff;
+    }
+}
+.recipes-item-11{
+    background-image: url(../images/items/Apple-Pie-Smoothie-3.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+        @include item-title;
+        color: #fff;
+    }
+}
+.art-item-1{
+    background-image: url(../images/items/teacup_mermaid_bubblebath.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+    @include item-title;
+    }
+}
+.art-item-2{
+    background-image: url(../images/items/66d38870e806bc91a6b48b59b0833f4b.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+    @include item-title;
+    }
+}
+.art-item-3{
+    background-image: url(../images/items/bf07d5de25f004ccdea1117e5afb0089.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+    @include item-title;
+    }
+}
+.art-item-4{
+    background-image: url(../images/items/IHqIskV.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+    @include item-title;
+    }
+}
+.art-item-5{
+    background-image: url(../images/items/New-Acrylic-Painting-Ideas-to-Try-13.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+    @include item-title;
+    }
+}
+.art-item-6{
+    background-image: url(../images/items/f2b24937d08921dc3736612d52b1c8e9.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+    @include item-title;
+    }
+}
+.art-item-7{
+    background-image: url(../images/items/flutter-under-the-stars-tv.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+    @include item-title;
+    }
+}
+.art-item-8{
+    background-image: url(../images/items/55861c697487551cdcb13b00b4187f90.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+    @include item-title;
+    }
+}
+.art-item-9{
+    background-image: url(../images/items/paintings59cb000f75263.jpeg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+    @include item-title;
+    }
+}
+.art-item-10{
+    background-image: url(../images/items/c51f2e6c93127fb4fc6ed869d8954b94.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+    @include item-title;
+    }
+}
+.art-item-11{
+    background-image: url(../images/items/1f4edca41552dc8b47e9132533c974d5.jpg);
+    @include item;
+    &:hover{
+        opacity: 0.6;
+        color: #fff;
+}
+    .item-title {
+    @include item-title;
+    }
+}
+.handicrafts-item-first, .recipes-item-first, .art-item-first {
+    @include item-first;
+    &:hover{
+        transform: rotate(0deg);
+    }
+    .item-title-first{
+        p:nth-of-type(1){
+            color: #e73e32;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        p:nth-of-type(2){
+            color: #555;
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+}
+
+

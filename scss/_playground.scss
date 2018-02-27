@@ -1,54 +1,23 @@
     .handicrafts-items, .recipes-items, .art-items{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        position: relative;
-        margin: 0 auto;
-        max-width: 1100px;
+        @include items;
     }
     .handicrafts-items, .art-items{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        position: relative;
+        @include items;
         button.load-more {
-            padding: 15px;
-            background: none;
-            border: 1px solid #fff;
-            border-radius: 5px;
-            color: #fff;
-            font-family: inherit;
-            font-size: 17px;
-            margin: 25px auto;
-            width: 150px;
+            @include load-more;
         }
     }
-
-    .handicrafts-item {
+   /* .handicrafts-item {
         background-image: url(../images/items/valentine32.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 200px;
-        margin: 5px;
-        height: 250px;
-        border: 1px solid #555;
-        border-radius: 5px;
-        text-align: center;
-        padding: 15px;
-        transition: opacity 1s;
+        @include item;
         &:hover{
             opacity: 0.6;
-            color: #fff;
-            
+            color: #fff;     
     }
         .item-title {
-            position: relative;
-            top: 220px;
-            font-size: 15px;
+            @include item-title;
             color: #555;
-            max-width: 200px;
+
         }
     }
     .recipes-item{
@@ -58,68 +27,31 @@
         &:nth-child(2){
             background-image: url(../images/items/ba4c92de30c357d7fe3e0a252e290e55.png);
         }
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 200px;
-        margin: 5px;
-        height: 250px;
-        border: 1px solid #555;
-        border-radius: 5px;
-        text-align: center;
-        padding: 15px;
-        transition: opacity 2s;
+        @include item;
         &:hover{
             opacity: 0.6;
             color: #fff;
     }
         .item-title {
-            position: relative;
-            top: 220px;
-            font-size: 17px;
+            @include item-title;
             color: #fff;
-            max-width: 200px;
         }
     }
     .art-item {
         background-image: url(../images/items/teacup_mermaid_bubblebath.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 200px;
-        margin: 5px;
-        height: 250px;
-        border: 1px solid #555;
-        border-radius: 5px;
-        text-align: center;
-        padding: 15px;
-        transition: opacity 2s;
+        @include item;
         &:hover{
             opacity: 0.6;
             color: #fff;
     }
         .item-title {
-            position: relative;
-            top: 235px;
-            font-size: 15px;
-            color: #555;
-            max-width: 200px;
+        @include item-title;
+        color: #555;
+ 
         }
     }
     .handicrafts-item-first, .recipes-item-first, .art-item-first {
-        background: #fff;
-        width: 200px;
-        margin: 5px;
-        height: 250px;
-        border: 1px solid #555;
-        border-radius: 5px;
-        text-align: center;
-        padding: 15px;
-        position: relative;
-        float: initial;
-        transform-origin: 0 100%;
-        transform: rotate(-11deg);
-        transition: transform .2s ease-out;
-        padding-bottom: 15px;
-        transition: transform .5s ease-in-out;  
+        @include item-first;
         &:hover{
             transform: rotate(0deg);
         }
@@ -135,7 +67,7 @@
                 font-weight: bold;
             }
         }
-    }
+    }*/
     #handicrafts, #art{
         padding: 50px;
         background: #e73e32;
@@ -522,21 +454,12 @@
 	color: red;
 }
 //LOAD MORE
-.more-handicrafts {
+.more-handicrafts, .more-recipes, .more-art{
 height: 0px;
 overflow: hidden;
 transition: height 0.9s;
 }
-.more-recipes {
-height: 0px;
-overflow: hidden;
-transition: height 0.9s;
-}
-.more-art {
-height: 0px;
-overflow: hidden;
-transition: height 0.9s;
-}
+
 
 
 
